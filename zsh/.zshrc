@@ -8,7 +8,7 @@ ZSH_THEME="bira"
 # Oh my ZSH Stuff
 export ZSH="$HOME/.oh-my-zsh"
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
-source /usr/share/doc/pkgfile/command-not-found.zsh
+source ~/.zsh/command-not-found.zsh
 plugins=(zsh-syntax-highlighting command-not-found)
 source $ZSH/oh-my-zsh.sh
 
