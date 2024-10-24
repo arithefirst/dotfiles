@@ -26,6 +26,7 @@ alias vim="nvim"
 alias cat='bat --theme="Catppuccin Mocha"'
 alias code='vscodium'
 alias blahaj='display3d /home/ari/.blahaj/blahaj.obj'
+alias neofetch='fastfetch -c neofetch'
 alias pipes='pipes.sh'
 
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
