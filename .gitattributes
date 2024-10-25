@@ -1,1 +1,3 @@
-zsh/.oh-my-zsh linguist-vendored
+zsh/.oh-my-zsh/** linguist-vendored
+tmux/.tmux/plugins/** linguist-vendored
+zsh/.zsh/** linguist-vendored
