@@ -3,10 +3,15 @@ configuration {
 
   display-ssh:    "󰣀 ssh:";
   display-run:    "󱓞 run:";
-  display-drun:   "󰣖 drun:";
+  display-drun:   "󰣖 Launch:";
   display-window: "󱂬 window:";
   display-combi:  "󰕘 combi:";
   display-filebrowser: "󰉋 filebrowser:";
+  modi: "drun,run,ssh,clipboard:/home/ari/.local/bin/rofi-clipping-mode";
+
+  clipboard {
+    display-name: " Clipboard:";
+  }
 }
 
 @theme "~/.config/rofi/catppuccin.rasi"
