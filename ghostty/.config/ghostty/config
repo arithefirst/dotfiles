@@ -1,0 +1,17 @@
+# https://github.com/arithefirst/dotfiles
+
+# Colorscheme
+theme = catppuccin-mocha
+background-opacity=0.7269
+background = #181825
+
+# Fonts
+font-family = "Hack Nerd Font"
+
+# Keybinds
+keybind = ctrl+shift+)=new_split:right
+keybind = ctrl+shift+(=new_split:down
+
+# Other
+window-decoration = false
+cursor-style = underline
