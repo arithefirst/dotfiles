@@ -1,6 +1,6 @@
 # Dependencies
 
-- ghostty
+- [ghostty](https://github.com/ghostty-org)
 
 # Install Command
 ```
