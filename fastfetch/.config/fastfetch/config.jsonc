@@ -5,7 +5,9 @@
     "logo": {
         "type":"small",
         "padding": {
-            "top": 1
+            "top": 1,
+            "left": 1,
+            "right": 2
         }
     },
     // Manually add seperator since

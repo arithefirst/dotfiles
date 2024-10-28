@@ -1,5 +1,5 @@
 # Splash Screen
-/usr/bin/cat /home/ari/.splash
+fastfetch
 
 # Set theme, enable corrections
 ENABLE_CORRECTION="true"
@@ -26,7 +26,7 @@ alias vim="nvim"
 alias cat='bat --theme="Catppuccin Mocha"'
 alias code='vscodium'
 alias blahaj='display3d /home/ari/.blahaj/blahaj.obj'
-alias neofetch='fastfetch -c neofetch'
+alias neofetch='fastfetch'
 alias pipes='pipes.sh'
 
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
