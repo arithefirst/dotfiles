@@ -1,9 +1,9 @@
 # Dependencies
 
-- nvim (neovim)
+- tmux
 
 # Install Command
 ```
 # On Arch Linux
-yay -S neovim
+yay -S tmux
 ```

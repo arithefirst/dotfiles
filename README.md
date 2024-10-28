@@ -21,20 +21,6 @@ Configured with GNU Stow
    # Loads nvim config
    ```
 
-### ZSH Dependencies
-To load the ZSH config, some packages are required.
-
-```bash
-# On Arch Linux
-yay -S \
-eza bat \
-pipes.sh fzf
-```
-- `eza` is a drop in replacement for `ls` with extra features
-- `bat` is a version of `cat` with syntax highlighting and better readibility
-- `fzf` (Fuzzy Finder) is a search tool for the CLI which can be activated by pressing `CTRL+t`
-- `pipes.sh` (run with `pipes` if you're using my config) just displays random pipes on the screen
-
 ## Credits
 ### Neovim
 - Neovim distro from [NvChad](https://nvchad.com/)

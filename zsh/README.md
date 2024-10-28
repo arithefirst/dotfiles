@@ -1,9 +1,12 @@
 # Dependencies
 
-- nvim (neovim)
+- eza
+- bat
+- pipes.sh 
+- fzf
 
 # Install Command
 ```
 # On Arch Linux
-yay -S neovim
+yay -S eza bat pipes.sh fzf
 ```

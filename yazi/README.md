@@ -1,9 +1,9 @@
 # Dependencies
 
-- nvim (neovim)
+- yazi
 
 # Install Command
 ```
 # On Arch Linux
-yay -S neovim
+yay -S yazi
 ```

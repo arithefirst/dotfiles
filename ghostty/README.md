@@ -1,9 +1,9 @@
 # Dependencies
 
-- nvim (neovim)
+- ghostty
 
 # Install Command
 ```
 # On Arch Linux
-yay -S neovim
+yay -S ghostty-git
 ```
