@@ -13,7 +13,8 @@
 ```
 # On Arch Linux
 yay -S cliphist ghostty-git \
-hyprland hyprpaper hyprpicker \
-pavucontrol rofi-wayland waybar \
-ttf-font-awesome
+hyprland hypridle hyprpaper  \
+hyprpicker hyprshot pavucontrol \
+rofi-wayland ttf-font-awesome \
+waybar \
 ```
