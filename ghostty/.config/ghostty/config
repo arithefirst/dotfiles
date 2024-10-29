@@ -12,6 +12,11 @@ font-family = "Hack Nerd Font"
 keybind = ctrl+shift+)=new_split:right
 keybind = ctrl+shift+(=new_split:down
 
+# Replace default catppuccin 
+# pink color with mauve
+palette = 5=#CBA6F7
+palette = 13=#CBA6F7
+
 # Other
 window-decoration = false
 cursor-style = underline
