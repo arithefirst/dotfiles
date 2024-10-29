@@ -19,4 +19,5 @@ palette = 13=#CBA6F7
 
 # Other
 window-decoration = false
-cursor-style = underline
+shell-integration-features = no-cursor
+cursor-style = bar
