@@ -14,5 +14,6 @@
 # On Arch Linux
 yay -S cliphist ghostty-git \
 hyprland hyprpaper hyprpicker \
-pavucontrol rofi-wayland waybar
+pavucontrol rofi-wayland waybar \
+ttf-font-awesome
 ```
