@@ -5,7 +5,7 @@
     "logo": {
         "type":"small",
         "padding": {
-            "top": 1,
+            "top": 2,
             "left": 1,
             "right": 2
         }
@@ -59,6 +59,17 @@
             "key": "{#white}│{#38;2;203;166;247}  pkgs   {#white}│ ",
             "type": "packages",
             "keyColor": "38;2;203;166;247"
+        },
+        // Colors seperator
+        {
+          "key": "├──────────┤",
+          "type": "custom",
+          "keyColor": "white"
+        },
+        {
+          "key": "{#white}│  colors │ ",
+          "symbol": "circle",
+          "type": "colors"
         },
         // Bottom of Box
         {
