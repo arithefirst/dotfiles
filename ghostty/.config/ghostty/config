@@ -17,7 +17,10 @@ keybind = ctrl+shift+(=new_split:down
 palette = 5=#CBA6F7
 palette = 13=#CBA6F7
 
-# Other
+# Window Decorations
 window-decoration = false
+window-theme = ghostty
+
+# Cursor
 shell-integration-features = no-cursor
 cursor-style = bar
