@@ -21,7 +21,7 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-  padding: 0 0.4em;
+  padding: 0 0;
   margin-left: 0.1em;
   margin-right: 0.1em;
   background-color: #1e1e2e;
@@ -40,7 +40,8 @@ window#waybar.hidden {
 }
 
 #workspaces button.urgent {
-  background-color: #eb4d4b;
+  color: #1e1e21;
+  background-color: #f9e2af;
 }
 
 #mode {
@@ -91,20 +92,20 @@ window#waybar.hidden {
 }
 
 #battery.charging {
-  color: #ffffff;
-  background-color: #26a65b;
+  color: #cdd6f4;
+  background-color: #a6e3a1;
 }
 
 @keyframes blink {
   to {
-    background-color: #ffffff;
+    background-color: #cdd6f4;
     color: #cdd6f4;
   }
 }
 
 #battery.critical:not(.charging) {
-  background-color: #f53c3c;
-  color: #ffffff;
+  background-color: #f38ba8;
+  color: #cdd6f4;
   animation-name: blink;
   animation-duration: 0.5s;
   animation-timing-function: linear;
@@ -134,7 +135,7 @@ label:focus {
 }
 
 #network.disconnected {
-  background-color: #f53c3c;
+  background-color: #f38ba8;
 }
 
 #pulseaudio {
@@ -148,25 +149,25 @@ label:focus {
 }
 
 #custom-media {
-  background-color: #66cc99;
-  color: #2a5c45;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
   min-width: 100px;
 }
 
 #custom-media.custom-spotify {
-  background-color: #66cc99;
+  background-color: #1e1e2e;
 }
 
 #custom-media.custom-vlc {
-  background-color: #ffa000;
+  background-color: #1e1e2e;
 }
 
 #temperature {
-  background-color: #f0932b;
+  background-color: #1e1e2e;
 }
 
 #temperature.critical {
-  background-color: #eb4d4b;
+  background-color: #f38ba8;
 }
 
 #tray {
