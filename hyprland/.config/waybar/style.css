@@ -21,7 +21,7 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-  padding: 0 0;
+  padding: 0 1.5px;
   margin-left: 0.1em;
   margin-right: 0.1em;
   background-color: #1e1e2e;
@@ -40,13 +40,17 @@ window#waybar.hidden {
 }
 
 #workspaces button.urgent {
-  color: #1e1e21;
+  color: #1e1e2e;
   background-color: #f9e2af;
 }
 
 #mode {
   background-color: #64727d;
   border-bottom: 3px solid #ffffff;
+}
+
+#tray {
+  background-color: #1e1e2e;
 }
 
 #clock,
@@ -92,7 +96,7 @@ window#waybar.hidden {
 }
 
 #battery.charging {
-  color: #cdd6f4;
+  color: #1e1e2e;
   background-color: #a6e3a1;
 }
 
@@ -168,10 +172,6 @@ label:focus {
 
 #temperature.critical {
   background-color: #f38ba8;
-}
-
-#tray {
-  background-color: #cba6f7;
 }
 
 #language {
