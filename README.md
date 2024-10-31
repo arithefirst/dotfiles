@@ -22,6 +22,9 @@ Configured with GNU Stow
    ```
 
 ## Credits
+
+Unless specified below, all work in this repository was done by me.
+
 ### Neovim
 - Neovim distro from [NvChad](https://nvchad.com/)
 
@@ -35,6 +38,9 @@ Configured with GNU Stow
 - `tmux-session-wizard` from [27medkamal/tmux-session-wizard](https://github.com/27medkamal/tmux-session-wizard)
 - `tmux-yank` from [tmux-plugins/tmux-yank](https://github.com/tmux-plugins/tmux-yank)
 - Tmux Plugin Manager from [tmux-plugins/tpm](https://github.com/tmux-plugins/tpm)
+
+### Yazi
+- Color Scheme from [catppuccin](https://github.com/catppuccin/yazi)
 
 ### ZSH
 - Powerline and Plugins from [Oh My ZSH](https://ohmyz.sh/)

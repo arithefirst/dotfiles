@@ -1,11 +1,12 @@
-# Dependencies
+# ZSH
+## Dependencies
 
 - eza
 - bat
 - pipes.sh 
 - fzf
 
-# Install Command
+## Install Command
 ```
 # On Arch Linux
 yay -S eza bat pipes.sh fzf

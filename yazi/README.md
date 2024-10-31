@@ -1,8 +1,9 @@
-# Dependencies
+# Yazi
+## Dependencies
 
 - yazi
 
-# Install Command
+## Install Command
 ```
 # On Arch Linux
 yay -S yazi

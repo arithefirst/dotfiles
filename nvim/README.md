@@ -1,9 +1,10 @@
-# Dependencies
+# Neovim
+## Dependencies
 
-- nvim (neovim)
+- neovim
 
-# Install Command
+## Install Command
 ```
 # On Arch Linux
-yay -S neovim
+yay -S nvim
 ```
