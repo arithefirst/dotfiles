@@ -23,7 +23,7 @@ slider {
 .floating-notifications.background .notification-row .notification-background {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8), inset 0 0 0 1px #313244;
   border-radius: 12.6px;
-  margin: 18px;
+  margin: 4px 18px;
   background-color: rgba(30, 30, 46, 1);
   color: #cdd6f4;
   padding: 0;
