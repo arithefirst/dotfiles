@@ -16,7 +16,8 @@
 - swaync
 - font awesome
 - roboto mono
-- waybar 
+- waybar
+- wlogout
 
 
 ## Install Command
@@ -26,7 +27,7 @@ yay -S cliphist ghostty-git \
 hypridle hyprland hyprpaper \
 hyprpicker hyprshot pavucontrol \
 rofi-wayland swaync ttf-font-awesome \
-ttf-roboto-mono waybar \
+ttf-roboto-mono waybar wlogout \
 ```
 
 

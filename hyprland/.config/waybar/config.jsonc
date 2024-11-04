@@ -4,7 +4,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["pulseaudio", "cpu", "memory", "battery", "battery#bat2", "clock", "tray"],
+    "modules-right": ["pulseaudio", "cpu", "memory", "battery", "battery#bat2", "clock", "tray", "custom/wlogout"],
     "tray": {
         "icon-size": 16,
         "spacing": 10
@@ -55,5 +55,9 @@
         },
         "on-click": "pavucontrol",
         "tooltip": false
-    }
+    },
+    "custom/wlogout": {
+        "format": "",
+        "on-click": "wlogout -b 5"
+  }
 }

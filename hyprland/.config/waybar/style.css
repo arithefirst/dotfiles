@@ -49,10 +49,6 @@ window#waybar.hidden {
   border-bottom: 3px solid #ffffff;
 }
 
-#tray {
-  background-color: #1e1e2e;
-}
-
 #clock,
 #battery,
 #cpu,
@@ -65,29 +61,24 @@ window#waybar.hidden {
 #tray,
 #mode,
 #idle_inhibitor,
-#mpd {
+#mpd,
+#custom-wlogout {
   padding: 0 10px;
   margin: 6px 3px;
   color: #cdd6f4;
 }
 
-#window,
-#workspaces {
+#window {
   margin: 0 4px;
 }
 
-/* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {
-  margin-left: 0;
-}
-
-/* If workspaces is the rightmost module, omit right margin */
-.modules-right > widget:last-child > #workspaces {
-  margin-right: 0;
-}
-
-#clock {
+#clock, #tray, #custom-wlogout {
   background-color: #1e1e2e;
+}
+
+#custom-wlogout {
+  padding: 0 14px 0 10px;
+  margin: 6px 7px 6px 3px;
 }
 
 #battery {
