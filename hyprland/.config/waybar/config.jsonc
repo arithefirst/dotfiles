@@ -18,10 +18,12 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "tooltip": false
+        "tooltip": false,
+        "interval": 5
     },
     "memory": {
-        "format": "{}% "
+        "format": "{}% ",
+        "interval": 5,
     },
     "battery": {
         "states": {
@@ -56,6 +58,7 @@
         "on-click": "pavucontrol",
         "tooltip": false
     },
+    // Power Button
     "custom/wlogout": {
         "format": "",
         "on-click": "wlogout -b 5"
