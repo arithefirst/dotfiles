@@ -46,7 +46,5 @@ For GTK Theming, I reccomend using nwg-look to install Catppuccin Mocha Mauve St
 For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Styles. To adhere to the theme that I have setup for my rice, follow the steps below.
 
 1. Run `yay -S kvantum`
-2. Open "Kvantum Manager" in rofi
-3. Select "Change/Delete Theme"
-4. Select "catppuccin-mocha-mauve" from the dropdown
-5. Click Quit
+2. Run `stow hyprland` from the root dotfiles directory
+3. Kvantam themes should be applied
