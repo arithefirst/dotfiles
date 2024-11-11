@@ -1,5 +1,6 @@
 # Hyprland
-![hyprland](https://github.com/user-attachments/assets/4bbae7fe-c670-4f6f-9b70-51c86ac7ace3)
+![hyprland](https://github.com/user-attachments/assets/e33e3114-7c4d-48bc-9a3d-4e3363a9cda9)
+
 
 
 ## Dependencies
