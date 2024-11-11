@@ -18,6 +18,7 @@
 - font awesome
 - roboto mono
 - thunar
+- tumbler
 - waybar
 - wlogout
 
@@ -29,8 +30,8 @@ yay -S cliphist ghostty-git \
 hypridle hyprland hyprpaper \
 hyprpicker hyprshot pavucontrol \
 rofi-wayland swaync ttf-font-awesome \
-ttf-roboto-mono thunar waybar \
-wlogout \
+ttf-roboto-mono thunar tumbler \
+waybar wlogout \
 ```
 
 
