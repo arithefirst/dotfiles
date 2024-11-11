@@ -2,6 +2,17 @@
 Configured with GNU Stow
 
 ## How to Use
+
+### Assisted Install (Arch only)
+1. Clone the repo and run the installer
+
+   ```shell
+   git clone https://github.com/arithefirst/dotfiles ~/dotfiles && \
+   cd ~/dotfiles/ && sh installer.sh
+   ```
+2. Pick the apps you want to install from the menu
+
+### Manual Install
 1. Clone this repo:
 
     ```shell
@@ -14,7 +25,9 @@ Configured with GNU Stow
     # On Arch Linux
     sudo pacman -S stow
     ```
-3. Run stow for the things you want to install
+3. Install dependencies (Can be found in the README of the folder for each item)
+   
+4. Run stow for the things you want to install
    ```shell
    # Example
    stow nvim
