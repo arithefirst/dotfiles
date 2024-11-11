@@ -34,9 +34,18 @@ wlogout \
 
 
 ## GTK Theming
-For GTK Theming, I reccomend using nwg-look to install Catppuccin Mocha Mauve Styles. To follow the theme that I have setup for my rice, follow the steps below.
+For GTK Theming, I reccomend using nwg-look to install Catppuccin Mocha Mauve Styles. To adhere to the theme that I have setup for my rice, follow the steps below.
 
 1. Run `yay -S nwg-look catppuccin-gtk-theme-mocha`
 2. Run `nwg-look` from your terminal, or launch it from your app launcher
 3. Select "catppuccin-mocha-mauve-standard+default"
 4. Click Apply
+
+## QT6 Theming
+For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Styles. To adhere to the theme that I have setup for my rice, follow the steps below.
+
+1. Run `yay -S kvantum`
+2. Open "Kvantum Manager" in rofi
+3. Select "Change/Delete Theme"
+4. Select "catppuccin-mocha-mauve" from the dropdown
+5. Click Quit
