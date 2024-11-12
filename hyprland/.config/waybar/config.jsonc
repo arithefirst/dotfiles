@@ -61,6 +61,6 @@
     // Power Button
     "custom/wlogout": {
         "format": "",
-        "on-click": "wlogout -b 5"
+        "on-click": "wlogout -b 5 -P 0"
   }
 }
