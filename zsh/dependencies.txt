@@ -1,0 +1,1 @@
+zsh eza bat pipes.sh fzf

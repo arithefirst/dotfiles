@@ -1,0 +1,1 @@
+fastfetch ttf-font-awesome
