@@ -9,12 +9,12 @@
 - hyprland suite
   - hypridle
   - hyprland
-  - hyprpaper
   - hyprpicker
   - hyprshot
 - pavucontrol
 - rofi (wayland)
 - swaync
+- swww (git)
 - font awesome
 - roboto mono
 - thunar
@@ -29,9 +29,9 @@
 yay -S cliphist ghostty-git \
 hypridle hyprland hyprpaper \
 hyprpicker hyprshot pavucontrol \
-rofi-wayland swaync ttf-font-awesome \
-ttf-roboto-mono thunar tumbler \
-waybar wlogout \
+rofi-wayland swaync swww-git \
+ttf-font-awesome ttf-roboto-mono thunar \
+tumbler waybar wlogout \
 ```
 
 
