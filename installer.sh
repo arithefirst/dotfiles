@@ -10,31 +10,34 @@ function hyprland_del() {
 function select_item() {
   # Get all the current dirs and open a gum menu for them
   sel=$(find . -maxdepth 1 -type d | sed -n 's/^\.\///p' | grep -v -E "\.git" | gum choose --no-limit --selected.foreground="177" || echo "Command failed." && exit)
-  gum confirm "This will overwrite all existing configs for these selections. Are you sure?"
 
-  # Select AUR helper
-  aur=$(gum choose --limit=1 --selected.foreground="177" yay paru)
-  echo $aur
+  if gum confirm "This will overwrite all existing configs for these selections. Are you sure?" --selected.background="177"; then 
+    # Select AUR helper
+    aur=$(gum choose --limit=1 --selected.foreground="177" yay paru)
+    echo $aur
 
-  for i in $sel;
-  do 
-    case $i in
-      # Remove existing comment files
-      "yazi")      rm -rf ~/.config/yazi;;
-      "ghostty")   rm -rf ~/.config/ghostty;;
-      "nvim")      rm -rf ~/.config/nvim;;
-      "zsh")       rm -rf ~/.zshrc ~/.zsh;;
-      "fastfetch") rm -rf ~/.config/fastfetch;;
-      "tmux")      rm -rf ~/.tmux.conf ~/.tmux;;
-      "hyprland")  hyprland_del;;
-    esac
-    gum spin --spinner dot --title "Loading $i config..." --show-error --show-output -- stow $i
+    for i in $sel;
+    do 
+      case $i in
+        # Remove existing comment files
+        "yazi")      rm -rf ~/.config/yazi;;
+        "ghostty")   rm -rf ~/.config/ghostty;;
+        "nvim")      rm -rf ~/.config/nvim;;
+        "zsh")       rm -rf ~/.zshrc ~/.zsh;;
+        "fastfetch") rm -rf ~/.config/fastfetch;;
+        "tmux")      rm -rf ~/.tmux.conf ~/.tmux;;
+        "hyprland")  hyprland_del;;
+      esac
+      gum spin --spinner dot --title "Loading $i config..." --show-error --show-output -- stow $i
 
-    # Read the dependencies.txt file
-    echo "Installing dependencies for $i through yay..."
-    yay -S $(cat ./$i/dependencies.txt) --noconfirm || echo "Command failed." && exit
-    echo "$i config loaded.";
-  done
+      # Read the dependencies.txt file
+      echo "Installing dependencies for $i through yay..."
+      yay -S $(cat ./$i/dependencies.txt) --noconfirm || echo "Command failed." && exit
+      echo "$i config loaded.";
+    done
+  else
+    echo "Quitting..." && exit
+  fi
 }
 
 # Only run if on arch
