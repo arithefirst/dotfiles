@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ -z "$1" ]]; then
-  for i in $(find ~/.wallpapers/ | sed "s/\/home\/.*\///"); do
+  for i in $(find ~/.wallpapers/ | sed "s/\/home\/.*\///" | sed "s/README.md//" | sort); do
     echo $i
   done
 else
