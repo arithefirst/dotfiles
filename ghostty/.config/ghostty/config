@@ -2,8 +2,8 @@
 
 # Colorscheme
 theme = catppuccin-mocha
-background-opacity=0.7269
-background = #181825
+background-opacity = 0.75
+background = #1e1e2e
 
 # Fonts
 font-family = "Hack Nerd Font"
