@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
 if [[ -z "$1" ]]; then
-  for i in $(find ~/.wallpapers/ | sed "s/\/home\/.*\///" | sed "s/README.md//" | sort); do
+  for i in $(find ~/.wallpapers/ | sed "s/\/home\/.*\///" |\
+             sed "s/README.md//" | sed "s/active//" | sort); do
     echo $i
   done
 else
   swww img -t wipe --resize crop ~/.wallpapers/$1
   notify-send "Wallpaper Updated" "Desktop wallpaper successfully changed to <i>$1</i>" -i ~/.wallpapers/$1 -u normal
+ cp ~/.wallpapers/$1 ~/.wallpapers/active
 fi
