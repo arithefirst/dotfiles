@@ -36,3 +36,6 @@ golang.setup({
   ft = { "go", "gomod" },
   build = ':lua require("go.install").update_all_sync()'
 })
+
+-- Other Keybinds
+vim.keymap.set('n', '<leader>e', ':Neotree<CR>', { desc = "Open Neotree" }) --open Neotree bind 
