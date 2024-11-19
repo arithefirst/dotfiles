@@ -1,14 +1,15 @@
 return {
   {
     "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate"
+    build = ":TSUpdate",
+    config = function()
+      local configs = require("nvim-treesitter.configs")
+
+      configs.setup({
+        highlight = { enable = true },
+        indent = { enable = true },
+        ensure_installed = { "go", "lua", "javascript", "typescript", "yaml", "json", "jsonc" },
+      })
+    end 
   },
-  {
-    "ray-x/go.nvim",
-    dependencies = {
-      "ray-x/guihua.lua",
-      "neovim/nvim-lspconfig",
-      "nvim-treesitter/nvim-treesitter",
-    },
-  }
 }
