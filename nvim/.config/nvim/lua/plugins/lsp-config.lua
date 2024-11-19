@@ -22,6 +22,7 @@ return {
       vim.keymap.set('n', '<leader>ci', vim.lsp.buf.hover, {desc = "Hover Info"})
       vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {desc = "Code Actions"})
       vim.keymap.set('n', '<leader>cd', vim.lsp.buf.definition, {desc = "Definition"})
+      vim.keymap.set('n', '<leader>cr', vim.lsp.buf.references, {desc = "References"})
 
       -- Language Servers
       lspconfig.biome.setup({})  -- JS, TS, JSX, TSX, JSON, JSONC, CSS, & GraphQL 
