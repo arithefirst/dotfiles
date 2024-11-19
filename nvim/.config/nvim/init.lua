@@ -11,7 +11,4 @@ vim.g.mapleader = " "
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
-vim.bo.softtabstop = 2
-
--- Other Keybinds
-vim.keymap.set('n', '<leader>e', ':Neotree<CR>', { desc = "Open Neotree" }) 
+vim.bo.softtabstop = 2 

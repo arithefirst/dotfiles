@@ -17,7 +17,7 @@ return {
     "neovim/nvim-lspconfig",
     config = function()
       local lspconfig = require("lspconfig")
-      vim.keymap.set('n', '<leader>i', vim.lsp.buf.hover, {})
+      vim.keymap.set('n', '<leader>i', vim.lsp.buf.hover, {desc = "LSP Hover Info"})
       lspconfig.biome.setup({})
       lspconfig.lua_ls.setup({})
       lspconfig.svelte.setup({})
