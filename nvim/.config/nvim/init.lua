@@ -3,6 +3,7 @@ require("config.lazy")
 
 -- Make catppuccin default colorscheme
 vim.cmd.colorscheme "catppuccin-mocha"
+vim.opt.termguicolors = true
 
 -- Map <leader> to space
 vim.g.mapleader = " "
