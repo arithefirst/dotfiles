@@ -2,7 +2,7 @@
 require("config.lazy")
 
 -- Make catppuccin default colorscheme
-vim.cmd.colorscheme "catppuccin-mocha"
+vim.cmd.colorscheme("catppuccin-mocha")
 vim.opt.termguicolors = true
 
 -- Map <leader> to space
@@ -12,4 +12,4 @@ vim.g.mapleader = " "
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
-vim.bo.softtabstop = 2 
+vim.bo.softtabstop = 2
