@@ -38,9 +38,6 @@ Configured with GNU Stow
 
 Unless specified below, all work in this repository was done by me.
 
-### Neovim
-- Neovim distro from [NvChad](https://nvchad.com/)
-
 ### Tmux
 - `tmux-copycat` from [tmux-plugins/tmux-copycat](https://github.com/tmux-plugins/tmux-copycat)
 - `tmux-open` from [tmux-plugins/tmux-open](https://github.com/tmux-plugins/tmux-open)
