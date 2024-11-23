@@ -1,7 +1,6 @@
 # Hyprland
-![hyprland](https://github.com/user-attachments/assets/e33e3114-7c4d-48bc-9a3d-4e3363a9cda9)
-
-
+[Wallpaper Switcher Script](https://www.youtube.com/watch?v=6euidiSWaKM) - [Workspace Switch Animation](https://www.youtube.com/watch?v=fyRkQ3hKVE4)
+![hyprland](https://github.com/user-attachments/assets/a390a5c2-85b3-44ae-98e4-681ef57f6a1b)
 
 ## Dependencies
 - cliphist
