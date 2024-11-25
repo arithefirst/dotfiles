@@ -2,7 +2,7 @@
 
 if [[ -z "$1" ]]; then
   for i in $(find ~/.wallpapers/ | sed -e "s/\/home\/.*\///" -e "s/README\.md\|active//g" | sort); do
-    echo $i
+    echo -en "$i\0icon\x1f~/.wallpapers/$i\n"
   done
 else
   swww img -t wipe --resize crop ~/.wallpapers/$1
