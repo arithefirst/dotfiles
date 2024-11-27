@@ -1,7 +1,8 @@
-# 🦄 Dotfiles 🦄
-Configured with GNU Stow
+<h1 align="center">🦄 Dotfiles 🦄</h1>
+<p align="center">By April Hall<br>
+Configured with GNU Stow</p>
 
-## How to Use
+<h2 align="center">How to Use</p>
 
 ### Assisted Install (Arch only)
 1. Clone the repo and run the installer
@@ -34,7 +35,7 @@ Configured with GNU Stow
    # Loads nvim config
    ```
 
-## Credits
+<h2 align="center">Credits</h2>
 
 Unless specified below, all work in this repository was done by me.
 
