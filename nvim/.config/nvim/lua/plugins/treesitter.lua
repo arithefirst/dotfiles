@@ -8,9 +8,13 @@ return {
 			configs.setup({
 				highlight = { enable = true },
 				indent = { enable = true },
-        auto_install = true,
+				auto_install = true,
 				ensure_installed = { "go", "lua", "javascript", "typescript", "yaml", "json", "jsonc" },
 			})
 		end,
 	},
+	-- Treesitter Grammar for hyprland configs
+	vim.filetype.add({
+		pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
+	}),
 }
