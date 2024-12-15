@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # removes the bajillion files we need for hyprland
-function hyprland_del() { 
-  rm -rf ~/.local/bin/rofi-clipping-mode ~/.config/hypr 
+function hyprland_del() {
+  rm -rf ~/.local/bin/rofi-clipping-mode ~/.config/hypr
   rm -rf ~/.config/Kvantum/catppuccin-mocha-mauve ~/.config/Kvantum/kvantum.kvconfig
   rm -rf ~/.config/rofi ~/.config/swaync ~/.config/waybar ~/.config/wlogout
 }
@@ -28,12 +28,12 @@ function select_item() {
   # Get all the current dirs and open a gum menu for them
   sel=$(find . -maxdepth 1 -type d | sed -n 's/^\.\///p' | grep -v -E "\.git" | gum choose --no-limit --selected.foreground="177" || echo "Command failed." && exit)
 
-  if gum confirm "This will overwrite all existing configs for these selections. Are you sure?" --selected.background="177"; then 
+  if gum confirm "This will overwrite all existing configs for these selections. Are you sure?" --selected.background="177"; then
     # Select AUR helper
     aur=$(gum choose --limit=1 --selected.foreground="177" yay paru)
     echo $aur
 
-    for i in $sel; do 
+    for i in $sel; do
       case $i in
         # Remove existing config files
         "yazi")      rm -rf ~/.config/yazi;;
@@ -49,8 +49,8 @@ function select_item() {
       gum spin --spinner dot --title "Loading $i config..." --show-error --show-output -- stow $i
 
       # Read the dependencies.txt file
-      echo "Installing dependencies for $i through yay..."
-      yay -S $(cat ./$i/dependencies.txt) --noconfirm || echo "Command failed." && exit
+      echo "Installing dependencies for $i through $aur..."
+      $aur -Syu $(cat ./$i/dependencies.txt) --noconfirm || (echo "Command failed." && exit)
       echo "$i config loaded.";
     done
   else
@@ -69,4 +69,3 @@ else
   echo "This script is only currently supported on Arch linux."
   echo "Support for other systems is coming soon."
 fi
-
