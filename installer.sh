@@ -49,8 +49,8 @@ function select_item() {
       gum spin --spinner dot --title "Loading $i config..." --show-error --show-output -- stow $i
 
       # Read the dependencies.txt file
-      echo "Installing dependencies for $i through yay..."
-      yay -S $(cat ./$i/dependencies.txt) --noconfirm || echo "Command failed." && exit
+      echo "Installing dependencies for $i through $aur..."
+      $aur -S $(cat ./$i/dependencies.txt) --noconfirm || ( echo "Command failed." && exit )
       echo "$i config loaded.";
     done
   else
