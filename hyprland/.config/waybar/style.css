@@ -62,7 +62,8 @@ window#waybar.hidden {
 #mode,
 #idle_inhibitor,
 #mpd,
-#custom-wlogout {
+#custom-wlogout,
+#custom-notification {
   padding: 0 10px;
   margin: 6px 3px;
   color: #cdd6f4;
@@ -72,13 +73,20 @@ window#waybar.hidden {
   margin: 0 4px;
 }
 
-#clock, #tray, #custom-wlogout {
+#clock,
+#tray,
+#custom-wlogout,
+#custom-notification {
   background-color: #1e1e2e;
 }
 
 #custom-wlogout {
-  padding: 0 14px 0 10px;
   margin: 6px 7px 6px 3px;
+}
+
+#custom-notification,
+#custom-wlogout {
+  padding: 0 14px 0 10px;
 }
 
 #battery {

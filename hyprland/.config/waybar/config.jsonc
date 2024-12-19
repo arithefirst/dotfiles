@@ -1,65 +1,95 @@
 {
-    "height": 33,
+  "height": 33,
 
-    // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["hyprland/window"],
-    "modules-right": ["pulseaudio", "cpu", "memory", "battery", "battery#bat2", "clock", "tray", "custom/wlogout"],
-    "tray": {
-        "icon-size": 16,
-        "spacing": 10
+  // Choose the order of the modules
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": [
+    "pulseaudio",
+    "cpu",
+    "memory",
+    "battery",
+    "battery#bat2",
+    "clock",
+    "tray",
+    "custom/notification",
+    "custom/wlogout",
+  ],
+  "tray": {
+    "icon-size": 16,
+    "spacing": 10,
+  },
+  "clock": {
+    "timezone": "America/New_York",
+    "format": "{:%h %d, %Y %I:%M:%S %p}",
+    "interval": 1,
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+  },
+  "cpu": {
+    "format": "{usage}% ",
+    "tooltip": false,
+    "interval": 5,
+  },
+  "memory": {
+    "format": "{}% ",
+    "interval": 5,
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15,
     },
-    "clock": {
-        "timezone": "America/New_York",
-        "format": "{:%h %d, %Y %I:%M:%S %p}",
-        "interval": 1,
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
-    },
-    "cpu": {
-        "format": "{usage}% ",
-        "tooltip": false,
-        "interval": 5
-    },
-    "memory": {
-        "format": "{}% ",
-        "interval": 5,
-    },
-    "battery": {
-        "states": {
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
-        "format-icons": ["", "", "", "", ""]
-    },
-    "battery#bat2": {
-        "bat": "BAT2"
-    },
-    "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "format-bluetooth": "{volume}% {icon}",
-        "format-bluetooth-muted": " {icon}",
-        "format-muted": "",
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% ",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["", "", "", "", ""],
+  },
+  "battery#bat2": {
+    "bat": "BAT2",
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-bluetooth-muted": " {icon}",
+    "format-muted": "",
     //    "format-source": "{volume}% ",
     //    "format-source-muted": " ",
-        "format-icons": {
-            "headphone": "  ",
-            "hands-free": " ",
-            "headset": " ",
-            "phone": " ",
-            "portable": " ",
-            "car": " ",
-            "default": ["", " ", " "]
-        },
-        "on-click": "pavucontrol",
-        "tooltip": false
+    "format-icons": {
+      "headphone": "  ",
+      "hands-free": " ",
+      "headset": " ",
+      "phone": " ",
+      "portable": " ",
+      "car": " ",
+      "default": ["", " ", " "],
     },
-    // Power Button
-    "custom/wlogout": {
-        "format": "",
-        "on-click": "wlogout -b 5 -P 0"
-  }
+    "on-click": "pavucontrol",
+    "tooltip": false,
+  },
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "<span foreground='#f38ba8'>󱅫</span>",
+      "none": "󰂚",
+      "dnd-notification": "<span foreground='#f38ba8'></span>",
+      "dnd-none": "",
+      "inhibited-notification": "<span foreground='#f38ba8'>󱅫</span>",
+      "inhibited-none": "󰂚",
+      "dnd-inhibited-notification": "<span foreground='#f38ba8'></span>",
+      "dnd-inhibited-none": "",
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true,
+  },
+  // Power Button
+  "custom/wlogout": {
+    "format": "",
+    "on-click": "wlogout -b 5 -P 0",
+  },
 }
