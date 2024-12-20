@@ -40,7 +40,7 @@ Configured with GNU Stow</p>
 Unless specified below, all work in this repository was done by me.
 
 ### Hyprland
-- Credits for all wallpapers are in hyprland/.wallpapers/README.md
+- Credits for all wallpapers are in [/hyprland/.wallpapers/README.md](https://github.com/arithefirst/dotfiles/tree/master/hyprland/.wallpapers)
 
 ### Tmux
 - `tmux-copycat` from [tmux-plugins/tmux-copycat](https://github.com/tmux-plugins/tmux-copycat)
