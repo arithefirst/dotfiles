@@ -1,10 +1,13 @@
 # Written by April Hall (arithefirst)
 # https://github.com/arithefirst/dotfiles
 
+# Syntax
+# vim: set filetype=toml :
+
 # Colorscheme
 theme = catppuccin-mocha
 background-opacity = 0.75
-background = #1e1e2e
+background = 1e1e2e
 
 # Fonts
 font-family = "Hack Nerd Font"
@@ -15,8 +18,8 @@ keybind = ctrl+shift+(=new_split:down
 
 # Replace default catppuccin 
 # pink color with mauve
-palette = 5=#CBA6F7
-palette = 13=#CBA6F7
+palette = 5=CBA6F7
+palette = 13=CBA6F7
 
 # Window Decorations
 window-decoration = false
