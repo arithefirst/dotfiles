@@ -24,3 +24,6 @@ window-theme = ghostty
 # Cursor
 shell-integration-features = no-cursor
 cursor-style = bar
+
+# Other
+gtk-single-instance = true
