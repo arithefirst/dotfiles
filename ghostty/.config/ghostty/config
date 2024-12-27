@@ -1,3 +1,4 @@
+# Written by April Hall (arithefirst)
 # https://github.com/arithefirst/dotfiles
 
 # Colorscheme
@@ -25,5 +26,9 @@ window-theme = ghostty
 shell-integration-features = no-cursor
 cursor-style = bar
 
+# Shader
+custom-shader = bettercrt.glsl
+
 # Other
 gtk-single-instance = true
+shell-integration = zsh
