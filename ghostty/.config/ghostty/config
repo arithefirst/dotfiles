@@ -10,7 +10,7 @@ background-opacity = 0.75
 background = 1e1e2e
 
 # Fonts
-font-family = "Hack Nerd Font"
+font-family = "Fira Code"
 
 # Keybinds
 keybind = ctrl+shift+)=new_split:right
