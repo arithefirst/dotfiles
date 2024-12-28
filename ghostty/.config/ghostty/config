@@ -24,6 +24,8 @@ palette = 13=CBA6F7
 # Window Decorations
 window-decoration = false
 window-theme = ghostty
+adw-toolbar-style = raised
+gtk-wide-tabs = true
 
 # Cursor
 shell-integration-features = no-cursor
