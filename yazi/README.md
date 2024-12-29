@@ -1,4 +1,6 @@
 # Yazi
+![yazi](../README-DEPENDENCIES/yazi.png)
+
 ## Dependencies
 
 - yazi

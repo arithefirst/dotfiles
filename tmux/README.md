@@ -1,4 +1,6 @@
 # Tmux
+![tmux](../README-DEPENDENCIES/tmux.png)
+
 ## Dependencies
 
 - tmux

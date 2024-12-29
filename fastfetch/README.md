@@ -1,5 +1,5 @@
 # Fastfetch
-![fastfetch](https://github.com/user-attachments/assets/e8807bd6-e18d-4ee6-8542-8576c0eca42e)
+![fastfetch](../README-DEPENDENCIES/zsh-fastfetch.png)
 
 ## Dependencies
 - fastfetch
