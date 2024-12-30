@@ -1,0 +1,29 @@
+# Syntax
+# vim: set filetype=toml :
+
+[input]
+method = pipewire
+source = auto
+
+[output]
+
+method = 'noncurses'
+
+[general]
+
+channels = 'stereo'
+mono_option = 'average'
+disable_blanking = 1
+waveform = 1
+bars = 0
+bar_width = 1
+bar_spacing = 0
+
+[color]
+
+foreground = '#cba6f7'
+background = 'default'
+
+[smoothing]
+
+monstercat = 1

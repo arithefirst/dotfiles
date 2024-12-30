@@ -42,6 +42,7 @@ function select_item() {
         "zsh")       rm -rf ~/.zshrc ~/.zsh;;
         "fastfetch") rm -rf ~/.config/fastfetch;;
         "tmux")      rm -rf ~/.tmux.conf ~/.tmux;;
+        "cava")      rm -rf .config/cava/config;;
         "hyprland")  hyprland_del;;
       esac
 
