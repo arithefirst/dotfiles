@@ -1,1 +1,1 @@
-cliphist ghostty-git hyprland hypridle hyprpicker hyprshot pavucontrol rofi-wayland swaync swww ttf-font-awesome ttf-roboto-mono thunar tumbler waybar wlogout
+cliphist ghostty-git hyprland hypridle hyprpicker hyprshot pavucontrol rofi-wayland swaync swww ttf-roboto-mono-nerd thunar tumbler waybar wlogout
