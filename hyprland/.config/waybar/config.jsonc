@@ -1,5 +1,5 @@
 {
-  "height": 33,
+  "height": 32,
 
   // Choose the order of the modules
   "modules-left": ["hyprland/workspaces"],
@@ -21,9 +21,9 @@
   },
   "clock": {
     "timezone": "America/New_York",
-    "format": "{:%h %d, %Y %I:%M:%S %p}",
+    "format": "{:%I:%M:%S %p}",
     "interval": 1,
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "tooltip-format": "{:%h %d, %Y}",
   },
   "cpu": {
     "format": "{usage}% ",
