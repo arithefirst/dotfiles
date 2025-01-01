@@ -22,6 +22,7 @@ window#waybar {
   margin: 0 0.15em;
   color: #cdd6f4;
   border-radius: 0;
+  transition: color 0.35s linear;
 }
 
 #workspaces button:first-child {
