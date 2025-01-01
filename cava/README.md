@@ -1,5 +1,5 @@
 # Cava
-![cava](../README-DEPENDENCIES/yazi.png)
+![cava](../README-DEPENDENCIES/cava.png)
 
 ## Dependencies
 
