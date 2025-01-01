@@ -6,7 +6,6 @@
 
 # Colorscheme
 theme = catppuccin-mocha
-background-opacity = 0.75
 background = 1e1e2e
 
 # Fonts
@@ -31,8 +30,8 @@ gtk-wide-tabs = true
 shell-integration-features = no-cursor
 cursor-style = bar
 
-# Shader
-custom-shader = bettercrt.glsl
+# Uncomment to enable CRT Shader
+# custom-shader = bettercrt.glsl
 
 # Other
 gtk-single-instance = true
