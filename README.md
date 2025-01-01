@@ -1,6 +1,7 @@
 <h1 align="center">🦄 Dotfiles 🦄</h1>
 <p align="center">By April Hall<br>
 Configured with GNU Stow</p>
+<p align="center"><img src="README-DEPENDENCIES/hyprland.png"></p>
 
 <h2 align="center">How to Use</p>
 
