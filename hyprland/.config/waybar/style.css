@@ -14,7 +14,8 @@ window#waybar {
 
 #workspaces {
   background-color: #1e1e2e;
-  margin: 4px 3px 0 7px;
+  margin: 4px 3px 0 10px;
+  border: solid 1px #cba6f7;
 }
 
 #workspaces button {
@@ -43,6 +44,7 @@ window#waybar {
 
 #workspaces button.active {
   color: #cba6f7;
+  background: #313244;
 }
 
 #workspaces button.urgent {
@@ -69,6 +71,7 @@ window#waybar {
   margin: 4px 3px 0;
   color: #cdd6f4;
   background-color: #1e1e2e;
+  border: solid 1px #cba6f7;
 }
 
 /* 
@@ -80,7 +83,7 @@ window#waybar.empty #window {
 }
 
 #custom-wlogout {
-  margin: 4px 7px 0 3px;
+  margin: 4px 10px 0 3px;
 }
 
 #custom-notification,
