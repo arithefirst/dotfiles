@@ -41,7 +41,7 @@ message {
 listview {
     padding: 8;
     border-radius: 0 0 10 10;
-    border: 2 2 2 2;
+    border: 2 0 0 0;
     border-color: @base;
     background-color: @base;
     dynamic: false;
