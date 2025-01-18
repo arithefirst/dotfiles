@@ -1,1 +1,1 @@
-ghostty-git ttf-hack-nerd
+ghostty
