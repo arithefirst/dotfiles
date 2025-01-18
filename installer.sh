@@ -2,7 +2,7 @@
 
 # removes the bajillion files we need for hyprland
 function hyprland_del() { 
-  rm -rf ~/.local/bin/rofi-clipping-mode ~/.config/hypr 
+  rm -rf ~/.config/hypr 
   rm -rf ~/.config/Kvantum/catppuccin-mocha-mauve ~/.config/Kvantum/kvantum.kvconfig
   rm -rf ~/.config/rofi ~/.config/swaync ~/.config/waybar ~/.config/wlogout
 }
@@ -46,12 +46,11 @@ function select_item() {
         "hyprland")  hyprland_del;;
       esac
 
-      # Put a spinner in case the stow takes a billion years for some reason
-      gum spin --spinner dot --title "Loading $i config..." --show-error --show-output -- stow $i
+      stow $i
 
       # Read the dependencies.txt file
       echo "Installing dependencies for $i through $aur..."
-      $aur -S $(cat ./$i/dependencies.txt) --noconfirm || ( echo "Command failed." && exit )
+      $aur -Sy $(cat ./$i/dependencies.txt) --noconfirm || ( echo "Command failed." && exit )
       echo "$i config loaded.";
     done
   else
@@ -68,6 +67,6 @@ if [[ $ID == "arch" ]]; then
   select_item
 else
   echo "This script is only currently supported on Arch linux."
-  echo "Support for other systems is coming soon."
+  echo "Support for other systems is (probbaly not) coming soon."
 fi
 
