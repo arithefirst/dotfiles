@@ -24,7 +24,7 @@
 ## Install Command
 ```
 # On Arch Linux
-yay -S cliphist ghostty-git \
+yay -S cliphist ghostty \
 hypridle hyprland hyprpaper \
 hyprpicker hyprshot pavucontrol \
 rofi-wayland swaync swww-git \
