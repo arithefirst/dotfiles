@@ -4,8 +4,9 @@
 ![hyprland](../README-DEPENDENCIES/hyprland.png)
 
 <details>
-<summary><h2>Keybinds</h2></summary>
-  
+<summary><h2>Binds</h2></summary>
+
+### Keybinds
 - `MOD + C`: Close focused window
 - `MOD + E`: Open file explorer
 - `MOD + F`: Toggle floating
@@ -29,11 +30,8 @@
 
 - `MOD + SHIFT + HOME`: Take screenshot of a screen
 - `MOD + SHIFT + {Number 0-9}`: Move focused window to workspace {Number 0-9}
-</details>
 
-<details>
-<summary><h2>Mousebinds</h2></summary>
-
+### Mousebinds
 - `Hover over window`: Focus hovered window
 - `MOD + SCROLL`: Scroll through workspaces
 - `MOD + LEFTCLICK + Drag Mouse`: Move window
