@@ -31,6 +31,16 @@
 - `MOD + SHIFT + {Number 0-9}`: Move focused window to workspace {Number 0-9}
 </details>
 
+<details>
+<summary><h2>Mousebinds</h2></summary>
+
+- `Hover over window`: Focus hovered window
+- `MOD + SCROLL`: Scroll through workspaces
+- `MOD + LEFTCLICK + Drag Mouse`: Move window
+- `MOD + SHIFT + LEFTCLICK + Drag Mouse`: Resize window
+- `POPMOUSE ACTION BUTTON`: Open launcher (rofi) (this only works on a Logi Popmouse)
+</details>
+
 ## Dependencies
 
 - cliphist
