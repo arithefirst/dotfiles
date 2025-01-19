@@ -1,8 +1,38 @@
 # Hyprland
+
 [Wallpaper Switcher Script](https://www.youtube.com/watch?v=6euidiSWaKM) - [Workspace Switch Animation](https://www.youtube.com/watch?v=fyRkQ3hKVE4)
 ![hyprland](../README-DEPENDENCIES/hyprland.png)
 
+<details>
+<summary><h2>Keybinds</h2></summary>
+  
+- `MOD + C`: Close focused window
+- `MOD + E`: Open file explorer
+- `MOD + F`: Toggle floating
+- `MOD + K`: Enter force-kill mode
+- `MOD + M`: Exit hyprland
+- `MOD + R`: Open launcher (rofi)
+- `MOD + S`: Take screenshot of a window
+- `MOD + V`: Show clipboard
+- `MOD + W`: View all open windows
+- `MOD + ENTER`: Open terminal
+- `MOD + UP-ARROW`: Move focus up
+- `MOD + DOWN-ARROW`: Move focus down
+- `MOD + LEFT-ARROW`: Move focus left
+- `MOD + RIGHT-ARROW`: Move focus right
+- `MOD + {Number 0-9}`: Switch to workspace {Number 0-9}
+
+- `ALT + SHIFT + S`: Open wlogout (Power Menu)
+
+- `MOD + SHIFT + C`: Open colorpicker
+- `MOD + SHIFT + S`: Take screenshot of a region
+
+- `MOD + SHIFT + HOME`: Take screenshot of a screen
+- `MOD + SHIFT + {Number 0-9}`: Move focused window to workspace {Number 0-9}
+</details>
+
 ## Dependencies
+
 - cliphist
 - Ghostty
 - hyprland suite
@@ -20,8 +50,8 @@
 - waybar
 - wlogout
 
-
 ## Install Command
+
 ```
 # On Arch Linux
 yay -S cliphist ghostty \
@@ -32,8 +62,8 @@ ttf-roboto-mono-nerd thunar \
 tumbler waybar wlogout \
 ```
 
-
 ## GTK Theming
+
 For GTK Theming, I reccomend using nwg-look to install Catppuccin Mocha Mauve Styles. To adhere to the theme that I have setup for my rice, follow the steps below.
 
 1. Run `yay -S nwg-look catppuccin-gtk-theme-mocha`
@@ -42,6 +72,7 @@ For GTK Theming, I reccomend using nwg-look to install Catppuccin Mocha Mauve St
 4. Click Apply
 
 ## QT6 Theming
+
 For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Styles. To adhere to the theme that I have setup for my rice, follow the steps below.
 
 1. Run `yay -S kvantum`
