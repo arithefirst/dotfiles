@@ -41,6 +41,7 @@
 
 ## Dependencies
 
+- apple_cursor
 - cliphist
 - Ghostty
 - hyprland suite
@@ -62,7 +63,7 @@
 
 ```
 # On Arch Linux
-yay -S cliphist ghostty \
+yay -S apple_cursor cliphist ghostty \
 hypridle hyprland hyprpaper \
 hyprpicker hyprshot pavucontrol \
 rofi-wayland swaync swww-git \
