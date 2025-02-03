@@ -21,7 +21,7 @@ export TESSDATA_PREFIX=/usr/share/tessdata
 export GPG_TTY=$(tty)
 
 # Aliases 
-alias ls="eza --color=always --git --no-filesize --icons=always --no-user --no-permissions"
+alias ls="eza --color=always --git --icons=always --octal-permissions"
 alias vim="nvim"
 alias cat='bat --theme="Catppuccin Mocha"'
 alias code='vscodium'
