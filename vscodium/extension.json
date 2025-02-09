@@ -9,10 +9,12 @@
   "eamodio.gitlens",
   "esbenp.prettier-vscode",
   "golang.go",
+  "kamikillerto.vscode-colorize",
   "leonardssh.vscord",
   "naumovs.color-highlight",
   "pixl-garden.bongocat",
   "svelte.svelte-vscode",
   "usernamehw.errorlens",
-  "wdhongtw.gpg-indicator"
+  "wdhongtw.gpg-indicator",
+  "yzhang.markdown-all-in-one"
 ]

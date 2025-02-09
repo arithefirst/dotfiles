@@ -24,5 +24,6 @@
   "workbench.productIconTheme": "bongocat",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.requireConfig": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "markdown.extension.preview.autoShowPreviewToSide": true
 }
