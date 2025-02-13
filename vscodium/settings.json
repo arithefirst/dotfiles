@@ -25,5 +25,9 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.requireConfig": true,
   "editor.formatOnSave": true,
-  "markdown.extension.preview.autoShowPreviewToSide": true
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "tailwindCSS.includeLanguages": {
+    "astro": "html"
+  }
 }
