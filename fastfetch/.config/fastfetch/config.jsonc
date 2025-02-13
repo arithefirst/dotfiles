@@ -57,7 +57,8 @@
         },
         {
             "key": "{#white}│{#38;2;203;166;247}  pkgs   {#white}│ ",
-            "type": "packages",
+            "type": "command",
+            "text": "echo \"$(pacman -Q | wc -l) (pacman)\"",
             "keyColor": "38;2;203;166;247"
         },
         // Colors seperator
