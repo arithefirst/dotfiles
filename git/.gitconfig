@@ -1,0 +1,24 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	name = April Hall
+	email = ari@arithefirst.com
+	signingkey = 4508A15C4DB91C5B
+[commit]
+	gpgsign = true
+[core]
+	editor = nvim
+[alias]
+  lgb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
+[push]
+  autoSetupRemote = true
+[difftool "neovim"]
+	cmd = nvim -d \"$LOCAL\" \"$REMOTE\"
+[diff]
+	tool = neovim
+[color]
+	ui = auto

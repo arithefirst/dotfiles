@@ -29,6 +29,7 @@ alias blahaj='display3d /home/ari/.blahaj/blahaj.obj'
 alias neofetch='fastfetch'
 alias pipes='pipes.sh'
 
+
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
   --color=fg:-1,fg+:#d0d0d0,bg:-1,bg+:-1
   --color=hl:#f38ba8,hl+:#5fd7ff,info:#cba6f7,marker:#f5e0dc
@@ -41,3 +42,12 @@ eval "$(fzf --zsh)"
 
 # bun completions
 [ -s "/home/ari/.bun/_bun" ] && source "/home/ari/.bun/_bun" ]
+
+# git stuff
+git() {
+    if [ "$1" = "status" ]; then
+        command git status -sb "${@:2}"
+    else
+        command git "$@"
+    fi
+}
