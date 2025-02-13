@@ -9,6 +9,12 @@ theme = catppuccin-mocha
 background = 1e1e2e
 background-opacity = 0.9
 
+# Padding
+window-padding-color = extend
+window-padding-balance = true
+window-padding-x = 10
+window-padding-y = 5
+
 # Fonts
 font-family = "Fira Code"
 
