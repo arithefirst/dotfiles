@@ -7,6 +7,7 @@
 # Colorscheme
 theme = catppuccin-mocha
 background = 1e1e2e
+background-opacity = 0.9
 
 # Fonts
 font-family = "Fira Code"
