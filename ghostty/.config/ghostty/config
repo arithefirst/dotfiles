@@ -7,7 +7,7 @@
 # Colorscheme
 theme = catppuccin-mocha
 background = 1e1e2e
-background-opacity = 0.9
+background-opacity = 0.85
 
 # Padding
 window-padding-color = extend
