@@ -12,6 +12,7 @@ All known wallpaper sources/where I found them are listed. If a wallpaper is not
 - [pastel-window.png](https://github.com/D3Ext/aesthetic-wallpapers)
 - [pixel-big-city.png](https://github.com/D3Ext/aesthetic-wallpapers)
 - [retro-market.png](https://github.com/D3Ext/aesthetic-wallpapers)
+- [rainy_ika_musuma.jpeg](https://safebooru.donmai.us/posts/1707172?q=gandoru)
 
 ### Unknown Sources
 - cityscape-evening.png
