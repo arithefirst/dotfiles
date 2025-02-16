@@ -7,7 +7,6 @@
   "git.enableCommitSigning": true,
   "gpgIndicator.enablePassphraseCache": true,
   "vscord.status.problems.enabled": false,
-  "editor.minimap.enabled": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "vscord.app.name": "VSCodium",
@@ -27,7 +26,7 @@
   "editor.formatOnSave": true,
   "markdown.extension.preview.autoShowPreviewToSide": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "tailwindCSS.includeLanguages": {
-    "astro": "html"
-  }
+  "terminal.integrated.gpuAcceleration": "off",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "codesnap.shutterAction": "copy"
 }
