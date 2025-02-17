@@ -28,5 +28,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "terminal.integrated.gpuAcceleration": "off",
   "editor.cursorSmoothCaretAnimation": "on",
-  "codesnap.shutterAction": "copy"
+  "codesnap.shutterAction": "copy",
+  "workbench.startupEditor": "none",
+  "editor.fontLigatures": true
 }
