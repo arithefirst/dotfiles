@@ -26,7 +26,7 @@ function check_pkg() {
 # select_item opens a select menu for all of the config options
 function select_item() {
   # Get all the current dirs and open a gum menu for them
-  sel=$(find . -maxdepth 1 -type d | sed -n 's/^\.\///p' | grep -v -E "\.git|README-DEPENDENCIES|vscodium" | gum choose --no-limit --selected.foreground="177" || ( echo "Command failed." && exit ))
+  sel=$(find . -maxdepth 1 -type d | sed -n 's/^\.\///p' | grep -v -E "\.git|README-DEPENDENCIES|vscodium|other" | gum choose --no-limit --selected.foreground="177" || ( echo "Command failed." && exit ))
 
   if gum confirm "This will overwrite all existing configs for these selections. Are you sure?" --selected.background="177"; then 
     # Select AUR helper
