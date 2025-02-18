@@ -7,6 +7,7 @@
 <summary><h2>Binds</h2></summary>
 
 ### Keybinds
+
 - `MOD + C`: Close focused window
 - `MOD + E`: Open file explorer
 - `MOD + F`: Toggle floating
@@ -32,6 +33,7 @@
 - `MOD + SHIFT + {Number 0-9}`: Move focused window to workspace {Number 0-9}
 
 ### Mousebinds
+
 - `Hover over window`: Focus hovered window
 - `MOD + SCROLL`: Scroll through workspaces
 - `MOD + LEFTCLICK + Drag Mouse`: Move window
