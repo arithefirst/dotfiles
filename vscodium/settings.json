@@ -30,5 +30,8 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "codesnap.shutterAction": "copy",
   "workbench.startupEditor": "none",
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  }
 }
