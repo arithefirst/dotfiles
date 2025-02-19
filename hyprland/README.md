@@ -8,37 +8,37 @@
 
 ### Keybinds
 
-- `MOD + C`: Close focused window
-- `MOD + E`: Open file explorer
-- `MOD + F`: Toggle floating
-- `MOD + K`: Enter force-kill mode
-- `MOD + M`: Exit hyprland
-- `MOD + R`: Open launcher (rofi)
-- `MOD + S`: Take screenshot of a window
-- `MOD + V`: Show clipboard
-- `MOD + W`: View all open windows
-- `MOD + ENTER`: Open terminal
-- `MOD + UP-ARROW`: Move focus up
-- `MOD + DOWN-ARROW`: Move focus down
-- `MOD + LEFT-ARROW`: Move focus left
-- `MOD + RIGHT-ARROW`: Move focus right
-- `MOD + {Number 0-9}`: Switch to workspace {Number 0-9}
+- <KBD>MOD</KBD> + <KBD>C</KBD>: Close focused window
+- <KBD>MOD</KBD> + <KBD>E</KBD>: Open file explorer
+- <KBD>MOD</KBD> + <KBD>F</KBD>: Toggle floating
+- <KBD>MOD</KBD> + <KBD>K</KBD>: Enter force-kill mode
+- <KBD>MOD</KBD> + <KBD>M</KBD>: Exit hyprland
+- <KBD>MOD</KBD> + <KBD>R</KBD>: Open launcher (rofi)
+- <KBD>MOD</KBD> + <KBD>S</KBD>: Take screenshot of a window
+- <KBD>MOD</KBD> + <KBD>V</KBD>: Show clipboard
+- <KBD>MOD</KBD> + <KBD>W</KBD>: View all open windows
+- <KBD>MOD</KBD> + <KBD>ENTER</KBD>: Open terminal
+- <KBD>MOD</KBD> + <KBD>UP-ARROW</KBD>: Move focus up
+- <KBD>MOD</KBD> + <KBD>DOWN-ARROW</KBD>: Move focus down
+- <KBD>MOD</KBD> + <KBD>LEFT-ARROW</KBD>: Move focus left
+- <KBD>MOD</KBD> + <KBD>RIGHT-ARROW</KBD>: Move focus right
+- <KBD>MOD</KBD> + <KBD>{Number 0-9}</KBD>: Switch to workspace {Number 0-9}
 
-- `ALT + SHIFT + S`: Open wlogout (Power Menu)
+- <KBD>ALT</KBD> + <KBD>SHIFT</KBD> + <KBD>S</KBD>: Open wlogout (Power Menu)
 
-- `MOD + SHIFT + C`: Open colorpicker
-- `MOD + SHIFT + S`: Take screenshot of a region
+- <KBD>MOD</KBD> + <KBD>SHIFT</KBD> + <KBD>C</KBD>: Open colorpicker
+- <KBD>MOD</KBD> + <KBD>SHIFT</KBD> + <KBD>S</KBD>: Take screenshot of a region
 
-- `MOD + SHIFT + HOME`: Take screenshot of a screen
-- `MOD + SHIFT + {Number 0-9}`: Move focused window to workspace {Number 0-9}
+- <KBD>MOD</KBD> + <KBD>SHIFT</KBD> + <KBD>HOME</KBD>: Take screenshot of a screen
+- <KBD>MOD</KBD> + <KBD>SHIFT</KBD> + <KBD>{Number 0-9}</KBD>: Move focused window to workspace {Number 0-9}
 
 ### Mousebinds
 
-- `Hover over window`: Focus hovered window
-- `MOD + SCROLL`: Scroll through workspaces
-- `MOD + LEFTCLICK + Drag Mouse`: Move window
-- `MOD + SHIFT + LEFTCLICK + Drag Mouse`: Resize window
-- `POPMOUSE ACTION BUTTON`: Open launcher (rofi) (this only works on a Logi Popmouse)
+- <KBD>Hover over window</KBD>: Focus hovered window
+- <KBD>MOD</KBD> + <KBD>SCROLL</KBD>: Scroll through workspaces
+- <KBD>MOD</KBD> + <KBD>LEFTCLICK</KBD> + <KBD>Drag Mouse</KBD>: Move window
+- <KBD>MOD</KBD> + <KBD>SHIFT</KBD> + <KBD>LEFTCLICK</KBD> + <KBD>Drag Mouse</KBD>: Resize window
+- <KBD>POPMOUSE ACTION BUTTON</KBD>: Open launcher (rofi) (this only works on a Logi Popmouse)
 </details>
 
 ## Dependencies
@@ -63,7 +63,7 @@
 
 ## Install Command
 
-```
+```shell
 # On Arch Linux
 yay -S apple_cursor cliphist ghostty \
 hypridle hyprland hyprpaper \
@@ -72,7 +72,6 @@ rofi-wayland swaync swww-git \
 ttf-roboto-mono-nerd thunar \
 tumbler waybar wlogout \
 ```
-
 ## GTK Theming
 
 For GTK Theming, I reccomend using nwg-look to install Catppuccin Mocha Mauve Styles. To adhere to the theme that I have setup for my rice, follow the steps below.
