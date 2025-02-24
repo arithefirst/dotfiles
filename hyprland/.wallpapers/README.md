@@ -13,6 +13,7 @@ All known wallpaper sources/where I found them are listed. If a wallpaper is not
 - [pixel-big-city.png](https://github.com/D3Ext/aesthetic-wallpapers)
 - [retro-market.png](https://github.com/D3Ext/aesthetic-wallpapers)
 - [rainy_ika_musuma.jpeg](https://safebooru.donmai.us/posts/1707172?q=gandoru)
+- [bigsur.jpg, mojave.jpg, montery](https://4kwallpapers.com/macos)
 
 ### Unknown Sources
 - cityscape-evening.png
