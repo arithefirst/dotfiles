@@ -19,7 +19,6 @@
   "go.toolsManagement.autoUpdate": true,
   "editor.fontFamily": "'Fira Code'",
   "workbench.iconTheme": "catppuccin-mocha",
-  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.productIconTheme": "bongocat",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.requireConfig": true,
@@ -33,5 +32,12 @@
   "editor.fontLigatures": true,
   "workbench.editorAssociations": {
     "*.svg": "default"
+  },
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
   }
 }
