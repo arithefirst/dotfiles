@@ -39,5 +39,17 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  }
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "ilkka.google-java-format"
+  },
+  "java.configuration.runtimes": [
+    {
+      "path": ""
+    }
+  ],
+  "debug.disassemblyView.showSourceCode": false
 }

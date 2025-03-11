@@ -3,6 +3,11 @@
 [Wallpaper Switcher Script](https://www.youtube.com/watch?v=6euidiSWaKM) - [Workspace Switch Animation](https://www.youtube.com/watch?v=fyRkQ3hKVE4)
 ![hyprland](../README-DEPENDENCIES/hyprland.png)
 
+> [!NOTE]
+> You will need to **manually update** the following files and substitue `ari` for your linux username.
+> - [`.config/rofi/config.rasi`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/rofi/config.rasi#L10) (Line 10)
+> - [`.config/hypr/hyprland.conf`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/hypr/hyprland.conf#L27) (Line 27)
+
 <details>
 <summary><h2>Binds</h2></summary>
 
