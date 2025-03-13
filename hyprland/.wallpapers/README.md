@@ -8,6 +8,7 @@ All known wallpaper sources/where I found them are listed. If a wallpaper is not
 - [ika-musume-archlinux.png](https://brainwreckedtech.wordpress.com/2014/03/03/ika-musume-wallpaper-for-arch-linux/)
 - [japanese-city.jpg](https://www.artstation.com/artwork/JlvJaA)
 - [lofi-cat.png](https://github.com/D3Ext/aesthetic-wallpapers)
+- [mars.png](https://www.reddit.com/r/wallpapers/comments/sbcjrf/we_must_conquer_mars/#lightbox)
 - [pastel-car.png](https://github.com/D3Ext/aesthetic-wallpapers)
 - [pastel-window.png](https://github.com/D3Ext/aesthetic-wallpapers)
 - [pixel-big-city.png](https://github.com/D3Ext/aesthetic-wallpapers)
