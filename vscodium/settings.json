@@ -5,7 +5,6 @@
   "codesnap.showWindowTitle": true,
   "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 10px 34px",
   "git.enableCommitSigning": true,
-  "gpgIndicator.enablePassphraseCache": true,
   "vscord.status.problems.enabled": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
@@ -43,14 +42,9 @@
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
   },
-  "[java]": {
-    "editor.defaultFormatter": "ilkka.google-java-format"
-  },
-  "java.configuration.runtimes": [
-    {
-      "path": ""
-    }
-  ],
   "debug.disassemblyView.showSourceCode": false,
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "files.associations": {
+    "*.service": "ini"
+  }
 }
