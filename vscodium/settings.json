@@ -51,5 +51,6 @@
       "path": ""
     }
   ],
-  "debug.disassemblyView.showSourceCode": false
+  "debug.disassemblyView.showSourceCode": false,
+  "workbench.sideBar.location": "right"
 }
