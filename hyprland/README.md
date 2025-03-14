@@ -61,7 +61,7 @@
 - swaync
 - swww (git)
 - roboto mono nerd font
-- thunar
+- nautilus
 - tumbler
 - waybar
 - wlogout
@@ -74,7 +74,7 @@ yay -S apple_cursor cliphist ghostty \
 hypridle hyprland hyprpaper \
 hyprpicker hyprshot pavucontrol \
 rofi-wayland swaync swww-git \
-ttf-roboto-mono-nerd thunar \
+ttf-roboto-mono-nerd nautilus \
 tumbler waybar wlogout \
 ```
 ## GTK Theming
