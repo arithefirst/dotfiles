@@ -46,5 +46,9 @@
   "workbench.sideBar.location": "right",
   "files.associations": {
     "*.service": "ini"
-  }
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "editor.tabSize": 2
 }
