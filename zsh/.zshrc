@@ -29,6 +29,11 @@ alias blahaj='display3d /home/ari/.blahaj/blahaj.obj'
 alias neofetch='fastfetch'
 alias pipes='pipes.sh'
 
+# Anti-nate precautions
+alias poweroff='cowsay "fuck you nate" | lolcat'
+alias restart='cowsay "fuck you nate" | lolcat'
+alias shutdown='cowsay "fuck you nate" | lolcat'
+
 # Autocorrect ignores
 CORRECT_IGNORE_FILE="tests"
 
