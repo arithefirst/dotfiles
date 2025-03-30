@@ -9,6 +9,7 @@ All known wallpaper sources/where I found them are listed. If a wallpaper is not
 - [japanese-city.jpg](https://www.artstation.com/artwork/JlvJaA)
 - [lofi-cat.png](https://github.com/D3Ext/aesthetic-wallpapers)
 - [mars.png](https://www.reddit.com/r/wallpapers/comments/sbcjrf/we_must_conquer_mars/#lightbox)
+- [mesmerizer.jpg](https://x.com/sasaki_takuto_/status/1787392614465184099/photo/1)
 - [pastel-car.png](https://github.com/D3Ext/aesthetic-wallpapers)
 - [pastel-window.png](https://github.com/D3Ext/aesthetic-wallpapers)
 - [pixel-big-city.png](https://github.com/D3Ext/aesthetic-wallpapers)
