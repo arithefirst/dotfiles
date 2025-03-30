@@ -2,7 +2,7 @@
   "height": 32,
 
   // Choose the order of the modules
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["hyprland/workspaces", "custom/spotify-title", "custom/spotify-artist"],
   "modules-center": ["hyprland/window"],
   "modules-right": [
     "pulseaudio",
@@ -13,40 +13,40 @@
     "clock",
     "tray",
     "custom/notification",
-    "custom/wlogout",
+    "custom/wlogout"
   ],
   "tray": {
     "icon-size": 16,
-    "spacing": 10,
+    "spacing": 10
   },
   "clock": {
     "timezone": "America/New_York",
     "format": "{:%I:%M:%S %p}",
     "interval": 1,
-    "tooltip-format": "{:%h %d, %Y}",
+    "tooltip-format": "{:%h %d, %Y}"
   },
   "cpu": {
     "format": "{usage}% ",
     "tooltip": false,
-    "interval": 5,
+    "interval": 5
   },
   "memory": {
     "format": "{}% ",
-    "interval": 5,
+    "interval": 5
   },
   "battery": {
     "states": {
       "warning": 30,
-      "critical": 15,
+      "critical": 15
     },
     "format": "{capacity}% {icon}",
     "format-charging": "{capacity}% ",
     "format-plugged": "{capacity}% ",
     "format-alt": "{time} {icon}",
-    "format-icons": ["", "", "", "", ""],
+    "format-icons": ["", "", "", "", ""]
   },
   "battery#bat2": {
-    "bat": "BAT2",
+    "bat": "BAT2"
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
@@ -60,10 +60,10 @@
       "phone": " ",
       "portable": " ",
       "car": " ",
-      "default": ["", " ", " "],
+      "default": ["", " ", " "]
     },
     "on-click": "pavucontrol",
-    "tooltip": false,
+    "tooltip": false
   },
   "custom/notification": {
     "tooltip": false,
@@ -76,18 +76,29 @@
       "inhibited-notification": "<span foreground='#f38ba8'>󱅫</span>",
       "inhibited-none": "󰂚",
       "dnd-inhibited-notification": "<span foreground='#f38ba8'></span>",
-      "dnd-inhibited-none": "",
+      "dnd-inhibited-none": ""
     },
     "return-type": "json",
     "exec-if": "which swaync-client",
     "exec": "swaync-client -swb",
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
-    "escape": true,
+    "escape": true
   },
   // Power Button
   "custom/wlogout": {
     "format": "",
-    "on-click": "wlogout -b 5 -P 0",
+    "on-click": "wlogout -b 5 -P 0"
   },
+  // Music player
+  "custom/spotify-title": {
+    "format": "{text} - ",
+    "exec": "playerctl -p spotify metadata --format '{{ title }}' | sed 's/&/&amp;/g; s/</&lt;/g; s/>/&gt;/g; s//&quot;/g; s/''/&apos;/g'",
+    "interval": 1
+  },
+  "custom/spotify-artist": {
+    "format": "<span style='oblique'>{text}</span>",
+    "exec": "playerctl -p spotify metadata --format '{{ artist }}' | sed 's/&/&amp;/g; s/</&lt;/g; s/>/&gt;/g; s//&quot;/g; s/''/&apos;/g'",
+    "interval": 1
+  }
 }
