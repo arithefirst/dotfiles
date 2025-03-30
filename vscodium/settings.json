@@ -50,5 +50,7 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never"
 }
