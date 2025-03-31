@@ -1,6 +1,6 @@
 * {
   border: none;
-  border-radius: 50px;
+  border-radius: 4px;
   /* 'ttf-roboto-mono-nerd' is required to be installed for icons */
   font-family: "RobotoMono Nerd Font", Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -28,15 +28,15 @@ window#waybar {
 
 #workspaces button:first-child {
   padding-left: 4px;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
   margin: 0;
 }
 
 #workspaces button:last-child {
   padding-right: 4px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   margin: 0;
 }
 
@@ -48,9 +48,9 @@ window#waybar {
   transition: all;
   background: #cba6f7;
   color: #1e1e2e;
-  padding: 0 10px;
-  border-radius: 50px;
-  margin: 0.5px
+  padding: 0 8.5px;
+  border-radius: 4px;
+  margin: 2px
 }
 
 #workspaces button.urgent {
@@ -72,38 +72,13 @@ window#waybar {
 #mpd,
 #custom-wlogout,
 #custom-notification,
+#custom-spotify,
 #window {
   padding: 0 10px;
   margin: 4px 3px 0;
   color: #cdd6f4;
   background-color: #1e1e2e;
   border: solid 1px #cba6f7;
-}
-
-#custom-spotify-title {
-  padding-left: 10px;
-  color: #cdd6f4;
-  margin: 4px 0 0 3px;
-  border-left: solid 1px #cba6f7;
-  border-top: solid 1px #cba6f7;
-  border-bottom: solid 1px #cba6f7;
-  background-color: #1e1e2e;
-  border-radius: 0;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-}
-
-#custom-spotify-artist {
-  padding-right: 10px;
-  color: #cdd6f4;
-  margin: 4px 3px 0 0;
-  border-right: solid 1px #cba6f7;
-  border-top: solid 1px #cba6f7;
-  border-bottom: solid 1px #cba6f7;
-  background-color: #1e1e2e;
-  border-radius: 0;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
 }
 
 /* 

@@ -2,7 +2,7 @@
   "height": 32,
 
   // Choose the order of the modules
-  "modules-left": ["hyprland/workspaces", "custom/spotify-title", "custom/spotify-artist"],
+  "modules-left": ["hyprland/workspaces", "custom/spotify"],
   "modules-center": ["hyprland/window"],
   "modules-right": [
     "pulseaudio",
@@ -91,14 +91,8 @@
     "on-click": "wlogout -b 5 -P 0"
   },
   // Music player
-  "custom/spotify-title": {
-    "format": "{text} - ",
-    "exec": "playerctl -p spotify metadata --format '{{ title }}' | sed 's/&/&amp;/g; s/</&lt;/g; s/>/&gt;/g; s//&quot;/g; s/''/&apos;/g'",
-    "interval": 1
-  },
-  "custom/spotify-artist": {
-    "format": "<span style='oblique'>{text}</span>",
-    "exec": "playerctl -p spotify metadata --format '{{ artist }}' | sed 's/&/&amp;/g; s/</&lt;/g; s/>/&gt;/g; s//&quot;/g; s/''/&apos;/g'",
+  "custom/spotify": {
+    "exec": "playerctl -p spotify metadata --format '{{ title }} - {{ artist }}' | sed 's/&/&amp;/g; s/</&lt;/g; s/>/&gt;/g; s//&quot;/g; s/''/&apos;/g'",
     "interval": 1
   }
 }
