@@ -51,5 +51,8 @@
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "editor.tabSize": 2,
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cSpell.userWords": [
+    "sonner"
+  ]
 }
