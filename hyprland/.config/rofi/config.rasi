@@ -1,4 +1,5 @@
 configuration {
+  font: "RobotoMono Nerd Font 16px";
   show-icons: true;
 
   display-ssh:    "󰣀 ssh:";
