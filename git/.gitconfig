@@ -7,7 +7,7 @@
 [user]
 	name = April Hall
 	email = ari@arithefirst.com
-	signingkey = 4508A15C4DB91C5B
+	signingkey = 5388FFA706095BFA
 [commit]
 	gpgsign = true
 [core]

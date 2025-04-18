@@ -56,6 +56,7 @@
   - hyprland
   - hyprpicker
   - hyprshot
+  - hyprlock
 - pavucontrol
 - rofi (wayland)
 - swaync

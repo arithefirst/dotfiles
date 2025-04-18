@@ -1,1 +1,1 @@
-apple_cursor cliphist ghostty hyprland hypridle hyprpicker hyprshot nautilus pavucontrol rofi-wayland swaync swww-git ttf-roboto-mono-nerd tumbler waybar wlogout
+apple_cursor cliphist ghostty hyprland hypridle hyprpicker hyprshot hyprlock nautilus pavucontrol rofi-wayland swaync swww-git ttf-roboto-mono-nerd tumbler waybar wlogout
