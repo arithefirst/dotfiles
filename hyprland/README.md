@@ -57,12 +57,15 @@
   - hyprpicker
   - hyprshot
   - hyprlock
+- networkmanager
+- networkmanager applet
+- ffmpegthumbnailer
 - pavucontrol
 - rofi (wayland)
 - swaync
 - swww (git)
 - roboto mono nerd font
-- nautilus
+- nemo
 - tumbler
 - waybar
 - wlogout
@@ -72,12 +75,12 @@
 ```shell
 # On Arch Linux
 yay -S apple_cursor cliphist ghostty \
-hypridle hyprland hyprpaper \
-hyprpicker hyprshot pavucontrol \
-rofi-wayland swaync swww-git \
-ttf-roboto-mono-nerd nautilus \
-tumbler waybar wlogout \
+hyprland hypridle hyprpicker hyprshot hyprlock \
+nemo pavucontrol rofi-wayland ffmpegthumbnailer \
+swaync swww-git ttf-roboto-mono-nerd \
+waybar wlogout networkmanager network-manager-applet
 ```
+
 ## GTK Theming
 
 For GTK Theming, I reccomend using nwg-look to install Catppuccin Mocha Mauve Styles. To adhere to the theme that I have setup for my rice, follow the steps below.

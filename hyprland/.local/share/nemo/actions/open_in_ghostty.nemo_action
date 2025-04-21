@@ -1,0 +1,9 @@
+[Nemo Action]
+
+Name=Open in Ghostty
+Comment=Open the 'Ghostty' terminal in the selected folder
+Exec=ghostty -e "zsh -c 'cd %F && exec zsh'"
+Icon-Name=com.mitchellh.ghostty
+Selection=any
+Extensions=dir;
+
