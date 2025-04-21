@@ -1,57 +1,64 @@
 #!/bin/bash
 
 # removes the bajillion files we need for hyprland
-function hyprland_del() { 
-  rm -rf ~/.config/hypr 
+function hyprland_del() {
+  rm -rf ~/.config/hypr
   rm -rf ~/.config/Kvantum/catppuccin-mocha-mauve ~/.config/Kvantum/kvantum.kvconfig
   rm -rf ~/.config/rofi ~/.config/swaync ~/.config/waybar ~/.config/wlogout
 }
 
 # Checks if a given package is installed, if not installs it
 function check_pkg() {
-  if pacman -Q "$1" > /dev/null; then
-      continue;
-    else
-      read -p "Install required pkg $1? (Y/n): " yn;
-      case $yn in
-        [Yy]* )          sudo pacman -S $1 --noconfirm;;
-        ''|*[[:space:]]) sudo pacman -S $1 --noconfirm;;
-        [Nn]* )          echo "Exiting" && exit;;
-        * )              echo "Invalid input. Exiting." && exit;;
-      esac
-      continue;
-    fi
+  if pacman -Q "$1" >/dev/null; then
+    continue
+  else
+    read -p "Install required pkg $1? (Y/n): " yn
+    case $yn in
+    [Yy]*) sudo pacman -S $1 --noconfirm ;;
+    '' | *[[:space:]]) sudo pacman -S $1 --noconfirm ;;
+    [Nn]*) echo "Exiting" && exit ;;
+    *) echo "Invalid input. Exiting." && exit ;;
+    esac
+    continue
+  fi
 }
 
 # select_item opens a select menu for all of the config options
 function select_item() {
   # Get all the current dirs and open a gum menu for them
-  sel=$(find . -maxdepth 1 -type d | sed -n 's/^\.\///p' | grep -v -E "\.git|README-DEPENDENCIES|vscodium|other" | gum choose --no-limit --selected.foreground="177" || ( echo "Command failed." && exit ))
+  sel=$(find . -maxdepth 1 -type d | sed -n 's/^.///p' | grep -v -E ".git|README-DEPENDENCIES|vscodium|other" | gum choose --no-limit --selected.foreground="177" || (echo "Command failed." && exit))
 
-  if gum confirm "This will overwrite all existing configs for these selections. Are you sure?" --selected.background="177"; then 
+  if gum confirm "This will overwrite all existing configs for these selections. Are you sure?" --selected.background="177"; then
     # Select AUR helper
     aur=$(gum choose --limit=1 --selected.foreground="177" yay paru)
     echo $aur
 
-    for i in $sel; do 
+    for i in $sel; do
       case $i in
-        # Remove existing config files
-        "yazi")      rm -rf ~/.config/yazi;;
-        "ghostty")   rm -rf ~/.config/ghostty;;
-        "nvim")      rm -rf ~/.config/nvim;;
-        "zsh")       rm -rf ~/.zshrc ~/.zsh;;
-        "fastfetch") rm -rf ~/.config/fastfetch;;
-        "tmux")      rm -rf ~/.tmux.conf ~/.tmux;;
-        "cava")      rm -rf .config/cava/config;;
-        "hyprland")  hyprland_del;;
+      # Remove existing config files
+      "yazi") rm -rf ~/.config/yazi ;;
+      "ghostty") rm -rf ~/.config/ghostty ;;
+      "nvim") rm -rf ~/.config/nvim ;;
+      "zsh") rm -rf ~/.zshrc ~/.zsh ;;
+      "fastfetch") rm -rf ~/.config/fastfetch ;;
+      "tmux") rm -rf ~/.tmux.conf ~/.tmux ;;
+      "cava") rm -rf .config/cava/config ;;
+      "hyprland") hyprland_del ;;
       esac
 
       stow $i
 
+      # If on hyprland, install hyprpm plugins
+      if [[ "$i" == "hyprland" ]]; then
+        hyprpm add https://github.com/Duckonaut/split-monitor-workspaces
+        hyprpm enable split-monitor-workspaces
+        hyprpm reload
+      fi
+
       # Read the dependencies.txt file
       echo "Installing dependencies for $i through $aur..."
-      $aur -Sy $(cat ./$i/dependencies.txt) --noconfirm || ( echo "Command failed." && exit )
-      echo "$i config loaded.";
+      $aur -Sy $(cat ./$i/dependencies.txt) --noconfirm || (echo "Command failed." && exit)
+      echo "$i config loaded."
     done
   else
     echo "Quitting..." && exit
@@ -69,4 +76,3 @@ else
   echo "This script is only currently supported on Arch linux."
   echo "Support for other systems is (probbaly not) coming soon."
 fi
-
