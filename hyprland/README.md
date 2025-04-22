@@ -1,4 +1,4 @@
-# Hyprland
+m# Hyprland
 
 [Wallpaper Switcher Script](https://www.youtube.com/watch?v=6euidiSWaKM) - [Workspace Switch Animation](https://www.youtube.com/watch?v=fyRkQ3hKVE4)
 ![hyprland](../README-DEPENDENCIES/hyprland.png)
@@ -50,35 +50,39 @@
 
 - apple_cursor
 - cliphist
-- Ghostty
-- hyprland suite
-  - hypridle
-  - hyprland
-  - hyprpicker
-  - hyprshot
-  - hyprlock
-- networkmanager
-- networkmanager applet
+- ghostty
+- hyprland
+- hypridle
+- hyprpicker
+- hyprshot
+- hyprlock
+- nemo
 - ffmpegthumbnailer
 - pavucontrol
-- rofi (wayland)
+- rofi-wayland
 - swaync
-- swww (git)
-- roboto mono nerd font
-- nemo
-- tumbler
+- swww-git
+- ttf-roboto-mono-nerd
 - waybar
 - wlogout
+- networkmanager
+- network-manager-applet
+- cmake
+- meson
+- cpio
+- pkg-config
+- brightnessctl
 
 ## Install Command
 
 ```shell
 # On Arch Linux
-yay -S apple_cursor cliphist ghostty \
-hyprland hypridle hyprpicker hyprshot hyprlock \
-nemo pavucontrol rofi-wayland ffmpegthumbnailer \
-swaync swww-git ttf-roboto-mono-nerd \
-waybar wlogout networkmanager network-manager-applet
+yay -S apple-cursor-theme-git cliphist ghostty \
+hyprland hypridle hyprpicker hyprshot hyprlock nemo \
+ffmpegthumbnailer pavucontrol rofi-wayland swaync swww \
+ttf-roboto-mono-nerd waybar wlogout networkmanager \
+network-manager-applet cmake meson cpio pkg-config \
+brightnessctl
 ```
 
 ## GTK Theming
