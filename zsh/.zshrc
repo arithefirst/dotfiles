@@ -17,6 +17,7 @@ export PATH="$HOME/.bun/bin:$PATH"
 export PATH=$PATH:/home/ari/.spicetify
 export PATH=$PATH:/home/ari/.cargo/bin
 export PATH=$PATH:/home/ari/.local/bin
+export PATH=$PATH:/home/ari/go/bin
 export TESSDATA_PREFIX=/usr/share/tessdata
 export GPG_TTY=$(tty)
 
