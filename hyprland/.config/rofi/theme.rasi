@@ -1,0 +1,101 @@
+* {
+    font:   "Noto Sans 12";
+
+    bg0:    #1E1E2EBF;
+    bg1:    #18182580;
+    bg2:    #CBA6F7E6;
+
+    fg0:    #CDD6F4FF;
+    fg1:    #1E1E2EFF;
+    fg2:    #9399B2FF;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     0;
+    padding:    0;
+    spacing:    0;
+}
+
+window {
+    background-color:   @bg0;
+    location:       center;
+    width:          700;
+    height:         340;
+    border-radius:  10;
+    border:         3px;
+    border-color:   @bg2;
+
+}
+
+inputbar {
+    font:       "Noto Sans 18px";
+    padding:    12px;
+    spacing:    12px;
+    children:   [ icon-search, entry ];
+}
+
+icon-search {
+    expand:     false;
+    filename:   "search";
+    size:       24px;
+}
+
+icon-search, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+entry {
+    font:   inherit;
+
+    placeholder         : "Search";
+    placeholder-color   : @fg2;
+}
+
+message {
+    border:             2px 0 0;
+    border-color:       @bg1;
+    background-color:   @bg1;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+listview {
+    lines:      10;
+    columns:    2;
+
+    padding:        8px;
+    fixed-height:   false;
+    border:         1px 0 0;
+    border-color:   @bg2;
+}
+
+element {
+    padding:            8px 16px;
+    spacing:            16px;
+    background-color:   transparent;
+}
+
+element normal active {
+    text-color: @bg2;
+}
+
+element alternate active {
+    text-color: @bg2;
+}
+
+element selected normal, element selected active {
+    background-color:   @bg2;
+    text-color:         @fg1;
+    border-radius:      10px;
+}
+
+element-icon {
+    size:   1em;
+}
+
+element-text {
+    text-color: inherit;
+}

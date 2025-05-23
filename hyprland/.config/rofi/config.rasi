@@ -1,6 +1,6 @@
 configuration {
-  font: "RobotoMono Nerd Font 16px";
   show-icons: true;
+  terminal: "ghostty";
 
   display-ssh:    "󰣀 ssh:";
   display-run:    "󱓞 run:";
@@ -20,4 +20,4 @@ configuration {
 
 }
 
-@theme "~/.config/rofi/catppuccin.rasi"
+@theme "~/.config/rofi/theme.rasi"
