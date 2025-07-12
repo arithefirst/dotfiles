@@ -1,6 +1,6 @@
 * {
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   /* 'ttf-roboto-mono-nerd' is required to be installed for icons */
   font-family: "RobotoMono Nerd Font", Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -9,13 +9,14 @@
 }
 
 window#waybar {
-  background-color: rgba(0,0,0,0)
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #workspaces {
   background-color: #1e1e2e;
   margin: 4px 3px 0 10px;
-  border: solid 1px #cba6f7;
+  border: 1px solid #cba6f7;
+  border-bottom: 3px solid #cba6f7;
 }
 
 #workspaces button {
@@ -23,7 +24,7 @@ window#waybar {
   margin: 0 0.15em;
   color: #cdd6f4;
   border-radius: 0;
-  transition: color 0.35s linear;
+  transition: none;
 }
 
 #workspaces button:first-child {
@@ -45,12 +46,11 @@ window#waybar {
 }
 
 #workspaces button.active {
-  transition: all;
   background: #cba6f7;
   color: #1e1e2e;
   padding: 0 8.5px;
   border-radius: 4px;
-  margin: 2px
+  margin: 2px;
 }
 
 #workspaces button.urgent {
@@ -72,13 +72,15 @@ window#waybar {
 #mpd,
 #custom-wlogout,
 #custom-notification,
-#custom-spotify,
-#window {
-  padding: 0 10px;
-  margin: 4px 3px 0;
+#custom-playerinfo,
+#window,
+#custom-cava {
+  background: #1e1e2e; 
+  border: 1px solid #cba6f7;
+  border-bottom: 3px solid #cba6f7;
   color: #cdd6f4;
-  background-color: #1e1e2e;
-  border: solid 1px #cba6f7;
+  margin: 4px 3px 0 3px;
+  padding: 0 14px 0 11px;
 }
 
 /* 
@@ -117,7 +119,7 @@ window#waybar.empty #window {
 
 #battery.critical:not(.charging) {
   background-color: #f38ba8;
-  color: #cdd6f4;
+  color: #ff7ba5;
   animation-name: blink;
   animation-duration: 0.5s;
   animation-timing-function: linear;

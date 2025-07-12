@@ -1,13 +1,9 @@
 {
   "height": 32,
-
-  // Choose the order of the modules
-  "modules-left": ["hyprland/workspaces", "custom/spotify"],
+  "modules-left": ["hyprland/workspaces", "custom/cava"],
   "modules-center": ["hyprland/window"],
   "modules-right": [
-    "pulseaudio",
-    "cpu",
-    "memory",
+    "custom/playerinfo",
     "battery",
     "battery#bat2",
     "clock",
@@ -67,18 +63,9 @@
   },
   "clock": {
     "timezone": "America/New_York",
-    "format": "{:%I:%M:%S %p}",
+    "format": "{:%h %d, %r}",
     "interval": 1,
     "tooltip-format": "{:%h %d, %Y}"
-  },
-  "cpu": {
-    "format": "{usage}% ",
-    "tooltip": false,
-    "interval": 5
-  },
-  "memory": {
-    "format": "{}% ",
-    "interval": 5
   },
   "battery": {
     "states": {
@@ -93,23 +80,6 @@
   },
   "battery#bat2": {
     "bat": "BAT2"
-  },
-  "pulseaudio": {
-    "format": "{icon} {volume}%",
-    "format-bluetooth": "{volume}% {icon}",
-    "format-bluetooth-muted": "󰝟 {icon}",
-    "format-muted": "󰝟",
-    //    "format-source": "{volume}% ",
-    //    "format-source-muted": " ",
-    "format-icons": {
-      "headphone": "  ",
-      "phone": " ",
-      "portable": " ",
-      "car": " ",
-      "default": ["", " ", " "]
-    },
-    "on-click": "pavucontrol",
-    "tooltip": false
   },
   "custom/notification": {
     "tooltip": false,
@@ -136,9 +106,17 @@
     "format": "",
     "on-click": "wlogout -b 5 -P 0"
   },
-  // Music player
-  "custom/spotify": {
-    "exec": "playerctl -p spotify metadata --format '{{ title }} - {{ artist }}' | sed 's/&/&amp;/g; s/</&lt;/g; s/>/&gt;/g; s//&quot;/g; s/''/&apos;/g'",
-    "interval": 1
+  "custom/cava": {
+    "format": "{}",
+    "exec": "~/.config/waybar/cava.sh",
+    "on-click": "pavucontrol"
+  },
+  "custom/playerinfo": {
+    "format": "{}",
+    "exec": "~/.config/waybar/playerinfo.sh",
+    "escape": true,
+    "return-type": "json",
+    "interval": 1,
+    "tooltip": true
   }
 }
