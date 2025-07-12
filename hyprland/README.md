@@ -1,4 +1,4 @@
-m# Hyprland
+# Hyprland
 
 [Wallpaper Switcher Script](https://www.youtube.com/watch?v=6euidiSWaKM) - [Workspace Switch Animation](https://www.youtube.com/watch?v=fyRkQ3hKVE4)
 ![hyprland](../README-DEPENDENCIES/hyprland.png)
