@@ -14,10 +14,10 @@ source $ZSH/oh-my-zsh.sh
 
 # $PATH
 export PATH="$HOME/.bun/bin:$PATH"
-export PATH=$PATH:/home/ari/.spicetify
-export PATH=$PATH:/home/ari/.cargo/bin
-export PATH=$PATH:/home/ari/.local/bin
-export PATH=$PATH:/home/ari/go/bin
+export PATH=$PATH:~/.spicetify
+export PATH=$PATH:~/.cargo/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/go/bin
 export TESSDATA_PREFIX=/usr/share/tessdata
 export GPG_TTY=$(tty)
 
@@ -26,7 +26,7 @@ alias ls="eza --color=always --git --icons=always --octal-permissions"
 alias vim="nvim"
 alias cat='bat --theme="Catppuccin Mocha"'
 alias code='vscodium'
-alias blahaj='display3d /home/ari/.blahaj/blahaj.obj'
+alias blahaj='display3d ~/.blahaj/blahaj.obj'
 alias neofetch='fastfetch'
 alias pipes='pipes.sh'
 
@@ -50,7 +50,7 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
 eval "$(fzf --zsh)"
 
 # bun completions
-[ -s "/home/ari/.bun/_bun" ] && source "/home/ari/.bun/_bun" ]
+[ -s "~/.bun/_bun" ] && source "~/.bun/_bun" ]
 
 # git stuff
 git() {

@@ -65,7 +65,6 @@ window#waybar {
 #temperature,
 #backlight,
 #network,
-#pulseaudio,
 #custom-media,
 #tray,
 #idle_inhibitor,
@@ -73,14 +72,22 @@ window#waybar {
 #custom-wlogout,
 #custom-notification,
 #custom-playerinfo,
-#window,
+#window {
+  background: #1e1e2e; 
+  border: 1px solid #cba6f7;
+  border-bottom: 3px solid #cba6f7;
+  color: #cdd6f4;
+  margin: 4px 3px 0 3px;
+  padding: 0 11px 0 11px;
+}
+
 #custom-cava {
   background: #1e1e2e; 
   border: 1px solid #cba6f7;
   border-bottom: 3px solid #cba6f7;
   color: #cdd6f4;
   margin: 4px 3px 0 3px;
-  padding: 0 14px 0 11px;
+  padding: 0 5px 0 5px;
 }
 
 /* 
@@ -93,11 +100,6 @@ window#waybar.empty #window {
 
 #custom-wlogout {
   margin: 4px 10px 0 3px;
-}
-
-#custom-notification,
-#custom-wlogout {
-  padding: 0 14px 0 11px;
 }
 
 #battery {
@@ -129,14 +131,4 @@ window#waybar.empty #window {
 
 label:focus {
   background-color: #000000;
-}
-
-#pulseaudio {
-  background-color: #1e1e2e;
-  color: #cdd6f4;
-}
-
-#pulseaudio.muted {
-  background-color: #1e1e2e;
-  color: #cdd6f4;
 }

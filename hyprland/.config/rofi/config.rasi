@@ -8,7 +8,7 @@ configuration {
   display-window: "󱂬 window:";
   display-combi:  "󰕘 combi:";
   display-filebrowser: "󰉋 filebrowser:";
-  modi: "drun,run,ssh,clipboard:/home/ari/.local/bin/rofi-clipping-mode,wallpaper:/home/ari/.local/bin/wallpaper-switcher";
+  modi: "drun,run,ssh,clipboard:~/.local/bin/rofi-clipping-mode,wallpaper:~/.local/bin/wallpaper-switcher";
 
   clipboard {
     display-name: " Clipboard:";
