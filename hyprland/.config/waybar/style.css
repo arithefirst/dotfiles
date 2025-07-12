@@ -6,8 +6,6 @@
   font-weight: bold;
   font-size: 12px;
   min-height: 0;
-
-  --accent-color: #cba6f7;
 }
 
 window#waybar {
@@ -17,8 +15,8 @@ window#waybar {
 #workspaces {
   background-color: #1e1e2e;
   margin: 4px 3px 0 10px;
-  border: 1px solid var(--accent-color);
-  border-bottom: 3px solid var(--accent-color);
+  border: 1px solid #cba6f7;
+  border-bottom: 3px solid #cba6f7;
 }
 
 #workspaces button {
@@ -48,7 +46,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background: var(--accent-color);
+  background: #cba6f7;
   color: #1e1e2e;
   padding: 0 8.5px;
   border-radius: 6px;
@@ -76,8 +74,8 @@ window#waybar {
 #custom-playerinfo,
 #window {
   background: #1e1e2e; 
-  border: 1px solid var(--accent-color);
-  border-bottom: 3px solid var(--accent-color);
+  border: 1px solid #cba6f7;
+  border-bottom: 3px solid #cba6f7;
   color: #cdd6f4;
   margin: 4px 3px 0 3px;
   padding: 0 11px 0 11px;
@@ -85,8 +83,8 @@ window#waybar {
 
 #custom-cava {
   background: #1e1e2e; 
-  border: 1px solid var(--accent-color);
-  border-bottom: 3px solid var(--accent-color);
+  border: 1px solid #cba6f7;
+  border-bottom: 3px solid #cba6f7;
   color: #cdd6f4;
   margin: 4px 3px 0 3px;
   padding: 0 5px 0 5px;
