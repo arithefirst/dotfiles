@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [[ -z "$1" ]]; then
+  palettro -showcolors | sed 's/^./\U&/' | sort
+else
+  palettro -color "${1,,}" -autoconfirm
+fi

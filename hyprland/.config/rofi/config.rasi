@@ -8,7 +8,7 @@ configuration {
   display-window: "󱂬 window:";
   display-combi:  "󰕘 combi:";
   display-filebrowser: "󰉋 filebrowser:";
-  modi: "drun,run,ssh,clipboard:~/.local/bin/rofi-clipping-mode,wallpaper:~/.local/bin/wallpaper-switcher";
+  modi: "drun,run,ssh,clipboard:~/.local/bin/rofi-clipping-mode,wallpaper:~/.local/bin/wallpaper-switcher,palettro:~/.local/bin/palettro-rofi";
 
   clipboard {
     display-name: " Clipboard:";
@@ -16,6 +16,10 @@ configuration {
 
   wallpaper {
     display-name: "󰍹 Wallpaper:";
+  }
+
+  palettro {
+    display-name: "🖌 Color Theme:";
   }
 
 }

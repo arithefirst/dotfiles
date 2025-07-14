@@ -27,6 +27,8 @@
 - <KBD>MOD</KBD> + <KBD>DOWN-ARROW</KBD>: Move focus down
 - <KBD>MOD</KBD> + <KBD>LEFT-ARROW</KBD>: Move focus left
 - <KBD>MOD</KBD> + <KBD>RIGHT-ARROW</KBD>: Move focus right
+- <KBD>MOD</KBD> + <KBD>HOME</KBD>: Open wallpaper switcher
+- <KBD>MOD</KBD> + <KBD>END</KBD>: Open theme switcher
 - <KBD>MOD</KBD> + <KBD>{Number 0-9}</KBD>: Switch to workspace {Number 0-9}
 
 - <KBD>ALT</KBD> + <KBD>SHIFT</KBD> + <KBD>S</KBD>: Open wlogout (Power Menu)
