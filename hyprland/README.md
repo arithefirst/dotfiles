@@ -72,6 +72,7 @@
 - cpio
 - pkg-config
 - brightnessctl
+- palettro-bin
 
 ## Install Command
 

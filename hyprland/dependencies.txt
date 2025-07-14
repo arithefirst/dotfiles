@@ -1,1 +1,1 @@
-apple_cursor cliphist ghostty hyprland hypridle hyprpicker hyprshot hyprlock nemo ffmpegthumbnailer pavucontrol rofi-wayland swaync swww-git ttf-roboto-mono-nerd waybar wlogout networkmanager network-manager-applet cmake meson cpio pkg-config brightnessctl
+apple_cursor cliphist ghostty hyprland hypridle hyprpicker hyprshot hyprlock nemo ffmpegthumbnailer pavucontrol rofi-wayland swaync swww-git ttf-roboto-mono-nerd waybar wlogout networkmanager network-manager-applet cmake meson cpio pkg-config brightnessctl palettro-bin
