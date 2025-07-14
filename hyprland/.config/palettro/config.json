@@ -1,0 +1,117 @@
+{
+  "colors": {
+    "rosewater": {
+      "hex": "f5e0dc",
+      "hexTrans": "f5e0dcff",
+      "rgb": "245, 224, 220",
+      "hsl": "10deg, 56%, 91%",
+      "rgba": "245, 224, 220, 1"
+    },
+    "flamingo": {
+      "hex": "f2cdcd",
+      "hexTrans": "f2cdcdff",
+      "rgb": "242, 205, 205",
+      "hsl": "0deg, 59%, 88%",
+      "rgba": "242, 205, 205, 1"
+    },
+    "pink": {
+      "hex": "f5c2e7",
+      "hexTrans": "f5c2e7ff",
+      "rgb": "245, 194, 231",
+      "hsl": "316deg, 72%, 86%",
+      "rgba": "245, 194, 231, 1"
+    },
+    "mauve": {
+      "hex": "cba6f7",
+      "hexTrans": "cba6f7ff",
+      "rgb": "203, 166, 247",
+      "hsl": "267deg, 84%, 81%",
+      "rgba": "203, 166, 247, 1"
+    },
+    "red": {
+      "hex": "f38ba8",
+      "hexTrans": "f38ba8ff",
+      "rgb": "243, 139, 168",
+      "hsl": "343deg, 81%, 75%",
+      "rgba": "243, 139, 168, 1"
+    },
+    "maroon": {
+      "hex": "eba0ac",
+      "hexTrans": "eba0acff",
+      "rgb": "235, 160, 172",
+      "hsl": "350deg, 65%, 77%",
+      "rgba": "235, 160, 172, 1"
+    },
+    "peach": {
+      "hex": "fab387",
+      "hexTrans": "fab387ff",
+      "rgb": "250, 179, 135",
+      "hsl": "23deg, 92%, 75%",
+      "rgba": "250, 179, 135, 1"
+    },
+    "yellow": {
+      "hex": "f9e2af",
+      "hexTrans": "f9e2afff",
+      "rgb": "249, 226, 175",
+      "hsl": "41deg, 86%, 83%",
+      "rgba": "249, 226, 175, 1"
+    },
+    "green": {
+      "hex": "a6e3a1",
+      "hexTrans": "a6e3a1ff",
+      "rgb": "166, 227, 161",
+      "hsl": "115deg, 54%, 76%",
+      "rgba": "166, 227, 161, 1"
+    },
+    "teal": {
+      "hex": "94e2d5",
+      "hexTrans": "94e2d5ff",
+      "rgb": "148, 226, 213",
+      "hsl": "170deg, 57%, 73%",
+      "rgba": "148, 226, 213, 1"
+    },
+    "sky": {
+      "hex": "89dceb",
+      "hexTrans": "89dcebff",
+      "rgb": "137, 220, 235",
+      "hsl": "189deg, 71%, 73%",
+      "rgba": "137, 220, 235, 1"
+    },
+    "sapphire": {
+      "hex": "74c7ec",
+      "hexTrans": "74c7ecff",
+      "rgb": "116, 199, 236",
+      "hsl": "199deg, 76%, 69%",
+      "rgba": "116, 199, 236, 1"
+    },
+    "blue": {
+      "hex": "89b4fa",
+      "hexTrans": "89b4faff",
+      "rgb": "137, 180, 250",
+      "hsl": "217deg, 92%, 76%",
+      "rgba": "137, 180, 250, 1"
+    },
+    "lavender": {
+      "hex": "b4befe",
+      "hexTrans": "b4befeff",
+      "rgb": "180, 190, 254",
+      "hsl": "232deg, 97%, 85%",
+      "rgba": "180, 190, 254, 1"
+    }
+  },
+  "configs": [
+    {
+      "name": "waybar",
+      "path": "~/.config/waybar/",
+      "restart": "waybar"
+    },
+    {
+      "name": "hyprland",
+      "path": "~/.config/hypr/"
+    },
+    {
+      "name": "rofi",
+      "path": "~/.config/rofi"
+    }
+  ]
+}

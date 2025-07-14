@@ -15,8 +15,8 @@ window#waybar {
 #workspaces {
   background-color: #1e1e2e;
   margin: 4px 3px 0 10px;
-  border: 1px solid #cba6f7;
-  border-bottom: 3px solid #cba6f7;
+  border: 1px solid #((PALETTRO.HEX));
+  border-bottom: 3px solid #((PALETTRO.HEX));
 }
 
 #workspaces button {
@@ -46,7 +46,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background: #cba6f7;
+  background: #((PALETTRO.HEX));
   color: #1e1e2e;
   padding: 0 8.5px;
   border-radius: 6px;
@@ -74,8 +74,8 @@ window#waybar {
 #custom-playerinfo,
 #window {
   background: #1e1e2e; 
-  border: 1px solid #cba6f7;
-  border-bottom: 3px solid #cba6f7;
+  border: 1px solid #((PALETTRO.HEX));
+  border-bottom: 3px solid #((PALETTRO.HEX));
   color: #cdd6f4;
   margin: 4px 3px 0 3px;
   padding: 0 11px 0 11px;
@@ -83,8 +83,8 @@ window#waybar {
 
 #custom-cava {
   background: #1e1e2e; 
-  border: 1px solid #cba6f7;
-  border-bottom: 3px solid #cba6f7;
+  border: 1px solid #((PALETTRO.HEX));
+  border-bottom: 3px solid #((PALETTRO.HEX));
   color: #cdd6f4;
   margin: 4px 3px 0 3px;
   padding: 0 5px 0 5px;

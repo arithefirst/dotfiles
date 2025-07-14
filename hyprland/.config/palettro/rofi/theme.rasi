@@ -3,7 +3,7 @@
 
     bg0:    #1E1E2EBF;
     bg1:    #18182580;
-    bg2:    #CBA6F7E6;
+    bg2:    #((PALETTRO.HEXTRANS));
 
     fg0:    #CDD6F4FF;
     fg1:    #1E1E2EFF;
