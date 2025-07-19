@@ -28,7 +28,7 @@ Load the config for LY by deleting your existing `/etc/ly/config.ini` and replac
 
 ## Pacman
 
-[Pacman](https://wiki.archlinux.org/title/Pacman) is the default package manager for Arch Linux and other Arch based systems. 
+[Pacman](https://wiki.archlinux.org/title/Pacman) is the default package manager for Arch Linux and other Arch based systems.
 
 ### Dependencies
 

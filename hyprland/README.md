@@ -5,6 +5,7 @@
 
 > [!NOTE]
 > You will need to **manually update** the following files and substitue `ari` for your linux username.
+>
 > - [`.config/rofi/config.rasi`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/rofi/config.rasi#L10) (Line 10)
 > - [`.config/hypr/hyprland.conf`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/hypr/hyprland.conf#L27) (Line 27)
 
@@ -68,6 +69,7 @@
 
 > [!NOTE]
 > You will need to **manually update** the following files and substitue `ari` for your linux username.
+>
 > - [`.config/rofi/config.rasi`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/rofi/config.rasi#L10) (Line 10)
 > - [`.config/hypr/hyprland.conf`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/hypr/hyprland.conf#L27) (Line 27)
 
@@ -87,6 +89,7 @@
 
 > [!NOTE]
 > You will need to **manually update** the following files and substitue `ari` for your linux username.
+>
 > - [`.config/rofi/config.rasi`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/rofi/config.rasi#L10) (Line 10)
 > - [`.config/hypr/hyprland.conf`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/hypr/hyprland.conf#L27) (Line 27)
 
@@ -186,6 +189,7 @@ For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Sty
 1. Run `yay -S kvantum`
 2. Run `stow hyprland` from the root dotfiles directory
 3. Kvantam themes should be applied
+
 # Hyprland
 
 [Wallpaper Switcher Script](https://www.youtube.com/watch?v=6euidiSWaKM) - [Workspace Switch Animation](https://www.youtube.com/watch?v=fyRkQ3hKVE4)
@@ -193,6 +197,7 @@ For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Sty
 
 > [!NOTE]
 > You will need to **manually update** the following files and substitue `ari` for your linux username.
+>
 > - [`.config/rofi/config.rasi`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/rofi/config.rasi#L10) (Line 10)
 > - [`.config/hypr/hyprland.conf`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/hypr/hyprland.conf#L27) (Line 27)
 
@@ -292,6 +297,7 @@ For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Sty
 1. Run `yay -S kvantum`
 2. Run `stow hyprland` from the root dotfiles directory
 3. Kvantam themes should be applied
+
 # Hyprland
 
 [Wallpaper Switcher Script](https://www.youtube.com/watch?v=6euidiSWaKM) - [Workspace Switch Animation](https://www.youtube.com/watch?v=fyRkQ3hKVE4)
@@ -299,6 +305,7 @@ For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Sty
 
 > [!NOTE]
 > You will need to **manually update** the following files and substitue `ari` for your linux username.
+>
 > - [`.config/rofi/config.rasi`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/rofi/config.rasi#L10) (Line 10)
 > - [`.config/hypr/hyprland.conf`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/hypr/hyprland.conf#L27) (Line 27)
 
@@ -398,6 +405,7 @@ For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Sty
 1. Run `yay -S kvantum`
 2. Run `stow hyprland` from the root dotfiles directory
 3. Kvantam themes should be applied
+
 # Hyprland
 
 [Wallpaper Switcher Script](https://www.youtube.com/watch?v=6euidiSWaKM) - [Workspace Switch Animation](https://www.youtube.com/watch?v=fyRkQ3hKVE4)
@@ -405,6 +413,7 @@ For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Sty
 
 > [!NOTE]
 > You will need to **manually update** the following files and substitue `ari` for your linux username.
+>
 > - [`.config/rofi/config.rasi`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/rofi/config.rasi#L10) (Line 10)
 > - [`.config/hypr/hyprland.conf`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/hypr/hyprland.conf#L27) (Line 27)
 
@@ -510,6 +519,7 @@ For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Sty
 This setup includes [Palettro](https://github.com/arithefirst/palettro), a dynamic theme switcher that allows you to change your system's color scheme on the fly. Palettro is bound to <KBD>MOD</KBD> + <KBD>END</KBD> and provides an easy way to switch between different Catppuccin color variants.
 
 ### Features
+
 - Dynamic theme switching for Hyprland, Waybar, and other components
 - Multiple Catppuccin color scheme variants
 - Real-time preview of theme changes
@@ -524,6 +534,7 @@ Palettro is available as `palettro-bin` in the AUR: https://aur.archlinux.org/pa
 This setup includes [Palettro](https://github.com/arithefirst/palettro), a dynamic theme switcher that allows you to change your system's color scheme on the fly. Palettro is bound to <KBD>MOD</KBD> + <KBD>END</KBD> and provides an easy way to switch between different Catppuccin color variants.
 
 ### Features
+
 - Dynamic theme switching for Hyprland, Waybar, and other components
 - Multiple Catppuccin color scheme variants
 - Real-time preview of theme changes
@@ -538,6 +549,7 @@ Palettro is available as `palettro-bin` in the AUR: https://aur.archlinux.org/pa
 This setup includes [Palettro](https://github.com/arithefirst/palettro), a dynamic theme switcher that allows you to change your system's color scheme on the fly. Palettro is bound to <KBD>MOD</KBD> + <KBD>END</KBD> and provides an easy way to switch between different Catppuccin color variants.
 
 ### Features
+
 - Dynamic theme switching for Hyprland, Waybar, and other components
 - Multiple Catppuccin color scheme variants
 - Real-time preview of theme changes
@@ -552,6 +564,7 @@ Palettro is available as `palettro-bin` in the AUR: https://aur.archlinux.org/pa
 This setup includes [Palettro](https://github.com/arithefirst/palettro), a dynamic theme switcher that allows you to change your system's color scheme on the fly. Palettro is bound to <KBD>MOD</KBD> + <KBD>END</KBD> and provides an easy way to switch between different Catppuccin color variants.
 
 ### Features
+
 - Dynamic theme switching for Hyprland, Waybar, and other components
 - Multiple Catppuccin color scheme variants
 - Real-time preview of theme changes
@@ -560,7 +573,9 @@ This setup includes [Palettro](https://github.com/arithefirst/palettro), a dynam
 Palettro is available as `palettro-bin` in the AUR: https://aur.archlinux.org/packages/palettro-bin
 
 ## Dependencies
+
 d
+
 - <KBD>MOD</KBD> + <KBD>R</KBD>: Open launcher (rofi)
 - <KBD>MOD</KBD> + <KBD>S</KBD>: Take screenshot of a window
 - <KBD>MOD</KBD> + <KBD>V</KBD>: Show clipboard
@@ -630,6 +645,7 @@ ttf-roboto-mono-nerd waybar wlogout networkmanager \
 network-manager-applet cmake meson cpio pkg-config \
 brightnessctl palettro-bin
 ```
+
 # Hyprland
 
 [Wallpaper Switcher Script](https://www.youtube.com/watch?v=6euidiSWaKM) - [Workspace Switch Animation](https://www.youtube.com/watch?v=fyRkQ3hKVE4)
@@ -637,6 +653,7 @@ brightnessctl palettro-bin
 
 > [!NOTE]
 > You will need to **manually update** the following files and substitue `ari` for your linux username.
+>
 > - [`.config/rofi/config.rasi`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/rofi/config.rasi#L10) (Line 10)
 > - [`.config/hypr/hyprland.conf`](https://github.com/arithefirst/dotfiles/blob/6d81b2bb4f1ff448a3789ed65b3df6eb49071da4/hyprland/.config/hypr/hyprland.conf#L27) (Line 27)
 
@@ -742,6 +759,7 @@ For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Sty
 This setup includes [Palettro](https://github.com/arithefirst/palettro), a dynamic theme switcher that allows you to change your system's color scheme on the fly. Palettro is bound to <KBD>MOD</KBD> + <KBD>END</KBD> and provides an easy way to switch between different Catppuccin color variants.
 
 ### Features
+
 - Dynamic theme switching for Hyprland, Waybar, and other components
 - Multiple Catppuccin color scheme variants
 - Real-time preview of theme changes
@@ -773,6 +791,7 @@ For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Sty
 This setup includes [Palettro](https://github.com/arithefirst/palettro), a dynamic theme switcher that allows you to change your system's color scheme on the fly. Palettro is bound to <KBD>MOD</KBD> + <KBD>END</KBD> and provides an easy way to switch between different Catppuccin color variants.
 
 ### Features
+
 - Dynamic theme switching for Hyprland, Waybar, and other components
 - Multiple Catppuccin color scheme variants
 - Real-time preview of theme changes
@@ -830,6 +849,7 @@ For QT6 Theming, I reccomend using Kvantum to install Catppuccin Mocha Mauve Sty
 This setup includes [Palettro](https://github.com/arithefirst/palettro), a dynamic theme switcher that allows you to change your system's color scheme on the fly. Palettro is bound to <KBD>MOD</KBD> + <KBD>END</KBD> and provides an easy way to switch between different Catppuccin color variants. The theme configs for Rofi, Waybar, and the main config file for hyprland are all in `.config/palettro` for that reason.
 
 ### Features
+
 - Dynamic theme switching for Hyprland, Waybar, and other components
 - Multiple Catppuccin color scheme variants
 - Real-time preview of theme changes
