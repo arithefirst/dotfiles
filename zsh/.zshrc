@@ -29,6 +29,7 @@ alias code='vscodium'
 alias blahaj='display3d ~/.blahaj/blahaj.obj'
 alias neofetch='fastfetch'
 alias pipes='pipes.sh'
+alias fucking='sudo'
 
 # Anti-nate precautions
 alias poweroff='cowsay "fuck you nate" | lolcat'

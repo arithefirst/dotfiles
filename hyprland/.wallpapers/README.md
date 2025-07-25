@@ -16,8 +16,10 @@ All known wallpaper sources/where I found them are listed. If a wallpaper is not
 - [retro-market.png](https://github.com/D3Ext/aesthetic-wallpapers)
 - [rainy_ika_musuma.jpeg](https://safebooru.donmai.us/posts/1707172?q=gandoru)
 - [bigsur.jpg, mojave.jpg, montery](https://4kwallpapers.com/macos)
+- [hyprland.png](https://hypr.land/news/contestWinners/)
 - [momo-ayase-dandadan.jpg](https://youtu.be/a4na2opArGY?t=2) (2.5 seconds)
 - [aira-shiratori.png](https://youtu.be/DCCRNzKvWRg?t=34) (34.5 seconds)
+- [giorno-giovanna-fightinggold.jpeg](https://youtu.be/p5X8Z-jvsHI?t=17) (17 seconds-ish)
 
 ### Unknown Sources
 - cityscape-evening.png
