@@ -10,7 +10,7 @@ window {
 button {
   border-radius: 8px;
   box-shadow: 4px 5px 11px -0.5px rgba(0, 0, 0, 0.55);
-  border-color: #cba6f7;
+  border-color: #((PALETTRO.HEX));
   text-decoration-color: #cdd6f4;
   color: #cdd6f4;
   background-color: #1e1e2e;
@@ -23,7 +23,7 @@ button {
 }
 
 button:hover {
-  background-color: #cba6f7;
+  background-color: #((PALETTRO.HEX));
   text-decoration-color: #1e1e2e;
   color: #1e1e2e;
   outline-style: none;

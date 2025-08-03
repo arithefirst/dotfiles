@@ -112,6 +112,10 @@
     {
       "name": "rofi",
       "path": "~/.config/rofi"
+    },
+    {
+      "name": "wlogout",
+      "path": "~/.config/wlogout"
     }
   ]
 }
