@@ -119,14 +119,13 @@ window#waybar.empty #window {
 
 @keyframes blink {
   to {
-    background-color: #cdd6f4;
-    color: #cdd6f4;
+    background-color: #fd0051;
   }
 }
 
 #battery.critical:not(.charging) {
-  background-color: #f38ba8;
-  color: #ff7ba5;
+  background-color: #ff7ba5;
+  color: #000000;
   animation-name: blink;
   animation-duration: 0.5s;
   animation-timing-function: linear;
