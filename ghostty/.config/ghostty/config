@@ -5,7 +5,7 @@
 # vim: set filetype=toml :
 
 # Colorscheme
-theme = catppuccin-mocha
+theme = "Catppuccin Mocha"
 background = 1e1e2e
 background-opacity = 0.75
 
