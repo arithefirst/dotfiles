@@ -1,3 +1,4 @@
 # Ignore dependency file and README
 dependencies.txt
 README.md
+installer.sh
