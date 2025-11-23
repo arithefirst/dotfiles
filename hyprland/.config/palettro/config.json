@@ -35,6 +35,13 @@
       "hsl": "343deg, 81%, 75%",
       "rgba": "243, 139, 168, 1"
     },
+    "dark red": {
+      "hex": "c7283e",
+      "hexTrans": "c7283eff",
+      "rgb": "199, 40, 62",
+      "hsl": "352deg, 66%, 47%",
+      "rgba": "199, 40, 62, 1"
+    },
     "maroon": {
       "hex": "eba0ac",
       "hexTrans": "eba0acff",
