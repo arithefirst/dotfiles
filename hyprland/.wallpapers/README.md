@@ -19,7 +19,7 @@ All known wallpaper sources/where I found them are listed. If a wallpaper is not
 - [hyprland.png](https://hypr.land/news/contestWinners/)
 - [momo-ayase-dandadan.jpg](https://youtu.be/a4na2opArGY?t=2) (2.5 seconds)
 - [aira-shiratori.png](https://youtu.be/DCCRNzKvWRg?t=34) (34.5 seconds)
-- [giorno-giovanna-fightinggold.jpeg](https://youtu.be/p5X8Z-jvsHI?t=17) (17 seconds-ish)
-
+- [giorno-giovanna-fighting-gold.jpeg](https://youtu.be/p5X8Z-jvsHI?t=17) (17 seconds-ish)
+- [kimi-singapore-2025.jpg, summer-stripes-kimi-antonelli.jpg, miami-roots.jpg](https://www.mercedesamgf1.com/fans/wallpapers)
 ### Unknown Sources
 - cityscape-evening.png
