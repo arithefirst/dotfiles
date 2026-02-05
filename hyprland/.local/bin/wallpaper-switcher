@@ -2,10 +2,10 @@
 
 if [[ -z "$1" ]]; then
   for i in $(find ~/.wallpapers/ | sed -e "s/\/home\/.*\///" -e "s/README\.md\|active//g" | sort); do
-    echo -en "$i\0icon\x1f~/.wallpapers/$i\n"
+    echo -en "/home/$(whoami)/.wallpapers/$i\n"
   done
 else
-  swww img -t wipe --resize crop ~/.wallpapers/$1
-  ffmpeg -i ~/.wallpapers/$1 -filter_complex "[0:v]crop=iw*0.2:ih*0.2:iw*0.4:ih*0.4,gblur=sigma=15[blurred];[0:v][blurred]overlay=x='(main_w-overlay_w)/2':y='(main_h-overlay_h)/2'" -f image2 ~/.wallpapers/active -y
+  swww img -t wipe --resize crop $1
+  ffmpeg -i $1 -filter_complex "[0:v]crop=iw*0.2:ih*0.2:iw*0.4:ih*0.4,gblur=sigma=15[blurred];[0:v][blurred]overlay=x='(main_w-overlay_w)/2':y='(main_h-overlay_h)/2'" -f image2 ~/.wallpapers/active -y
   notify-send "Wallpaper Updated" "Desktop wallpaper successfully changed to <i>$1</i>" -i ~/.wallpapers/$1 -u normal
 fi
