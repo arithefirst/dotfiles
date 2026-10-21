@@ -1,3 +1,7 @@
+# THIS IS AN ARCHIVE
+I am no longer contributing to this repository. My new config lives at https://github.com/arithefirst/nix :D
+
+
 <h1 align="center">🦄 Dotfiles 🦄</h1>
 <p align="center">By April Hall<br>
 Configured with GNU Stow</p>
